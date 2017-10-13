@@ -48,10 +48,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .setPaymentDetails();
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         menuPage.deleteInDbProductPromocodeUserAndOrder(generNumber1);
@@ -90,8 +86,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .setPaymentDetails();
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreatedPromoCode(generNumber1);
-
-        // Thread.sleep(3000);
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -134,8 +128,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreatedPromoCode(generNumber1);
 
-        // Thread.sleep(3000);
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -177,13 +169,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreditMoney();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -222,12 +207,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .setPaymentDetails();
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreditMoney();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -268,13 +247,7 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreditMoney();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
-        Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
+       Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -312,12 +285,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .setPaymentDetails();
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreatedPromoCode(generNumber1).useCreditMoney();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -360,13 +327,7 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
-        Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
+       Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -406,12 +367,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -454,12 +409,6 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -500,12 +449,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -548,12 +491,6 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -594,12 +531,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -642,13 +573,6 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1);
 
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -689,12 +613,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1);
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -737,12 +655,6 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1);
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -783,12 +695,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1);
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -831,12 +737,6 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1);
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -878,12 +778,6 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1);
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -922,7 +816,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
 
         Assert.assertTrue(confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -961,15 +854,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(totalSumOfProductPricesInOrderBlock);
-        LOG.info(promoCodeValue);
-        LOG.info(creditMoneyValue);
-        LOG.info(confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(confirmYourOrderPopUp.getYouSavePrice() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -1011,13 +895,7 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(confirmYourOrderPopUp.getYouSavePrice() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
-        Assert.assertTrue(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
+         Assert.assertTrue(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && confirmYourOrderPopUp.getYouSavePrice() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -1056,12 +934,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(confirmYourOrderPopUp.getYouSavePrice() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -1103,12 +975,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(confirmYourOrderPopUp.getYouSavePrice() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && confirmYourOrderPopUp.getYouSavePrice() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -1149,12 +1015,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(confirmYourOrderPopUp.getYouSavePrice() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && confirmYourOrderPopUp.getYouSavePrice() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -1194,12 +1054,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(confirmYourOrderPopUp.getYouSavePrice() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -1243,12 +1097,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -1290,12 +1138,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -1339,12 +1181,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -1386,12 +1222,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -1435,12 +1265,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -1482,12 +1306,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -1531,12 +1349,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -1578,12 +1390,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -1627,12 +1433,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -1674,12 +1474,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -1723,12 +1517,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -1770,12 +1558,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -1819,13 +1601,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreditMoney();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -1867,13 +1642,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .setPaymentDetails();
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreditMoney();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -1917,13 +1685,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreditMoney();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -1965,13 +1726,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .setPaymentDetails();
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreditMoney();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -2015,12 +1769,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreditMoney();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -2063,12 +1811,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreditMoney();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -2110,12 +1852,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .setPaymentDetails();
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreatedPromoCode(generNumber1).useCreditMoney();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -2161,13 +1897,7 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
-        Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
+         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -2210,12 +1940,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -2261,13 +1985,7 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
-        Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
+       Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -2311,13 +2029,7 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
-        Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
+       Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -2361,13 +2073,7 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
-        Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
+       Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -2410,12 +2116,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -2461,13 +2161,6 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1);
 
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -2511,12 +2204,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1);
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -2562,12 +2249,6 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1);
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -2611,12 +2292,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1);
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -2662,12 +2337,6 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1);
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -2712,12 +2381,6 @@ public class MakingOrderTestSuit extends TestBase {
         checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1);
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -2760,12 +2423,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(confirmYourOrderPopUp.getYouSavePrice() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -2810,12 +2467,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(confirmYourOrderPopUp.getYouSavePrice() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && confirmYourOrderPopUp.getYouSavePrice() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -2859,12 +2510,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(confirmYourOrderPopUp.getYouSavePrice() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && confirmYourOrderPopUp.getYouSavePrice() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -2907,12 +2552,6 @@ public class MakingOrderTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(confirmYourOrderPopUp.getYouSavePrice() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(confirmYourOrderPopUp.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && confirmYourOrderPopUp.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -2959,12 +2598,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -3009,12 +2642,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -3061,12 +2688,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -3111,12 +2732,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -3163,12 +2778,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -3213,12 +2822,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -3265,12 +2868,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -3315,12 +2912,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -3367,12 +2958,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -3417,12 +3002,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
@@ -3469,12 +3048,6 @@ public class MakingOrderTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
 
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)
                 && checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() == checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
@@ -3519,12 +3092,6 @@ public class MakingOrderTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
-
-        // Thread.sleep(3000);
-
-        LOG.info(checkOutPage.getOldPriceDisplayedOnCheckOutPage() + " == " + totalSumOfProductPricesInOrderBlock);
-        LOG.info(checkOutPage.getTotalPriceAferUsingDiscounts() + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
-        LOG.info(checkOutPage.getYouSavePriceValueDisplayedIncheckOutPage() + " == " + checkOutPage.calculateYouSavePrice(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
         Assert.assertTrue(checkOutPage.getOldPriceDisplayedOnCheckOutPage() == totalSumOfProductPricesInOrderBlock
                 && checkOutPage.getTotalPriceAferUsingDiscounts() == checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue)

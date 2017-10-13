@@ -465,11 +465,8 @@ public class ProductAndCartTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.setDeliveryAddress("1530 Bullpup Cir", "93041").
                 setPaymentDetails().
                 clickOnPlaceOrderButton();
-        // Thread.sleep(1000);
         checkOutPage = confirmYourOrderPopUp.clickEditButton();
-        // Thread.sleep(1000);
         checkOutPage.setDeliveryAddress("1911 Johnson Ave", "93401").clickOnPlaceOrderButton();
-        // Thread.sleep(1000);
 
         Assert.assertTrue(webDriver.findElement(By.xpath("//p[@class='text-color confirm-info address-text']/span[1]")).getText().equals("1911 JOHNSON AVE") &&
                 webDriver.findElement(By.xpath("//p[@class='text-color confirm-info address-text']/span[2]")).getText().equals("93401-4131") &&
@@ -501,7 +498,6 @@ public class ProductAndCartTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.setDeliveryAddress("1530 Bullpup Cir", "93041").
                 setPaymentDetails().
                 clickOnPlaceOrderButton();
-        // Thread.sleep(1000);
         checkOutPage = confirmYourOrderPopUp.clickEditButton();
 
         Assert.assertTrue(webDriver.findElement(By.xpath("//div[@class='detailed-address']/div[@class='inp-group'][1]/input[1]")).getAttribute("value").equals("Los Angeles") &&

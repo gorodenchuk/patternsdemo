@@ -69,10 +69,8 @@ public class RegisterationStep2_1of3PopUp extends Page {
         ((JavascriptExecutor) webDriver).executeScript(elem);
         fluentWaitUntilElementBecomeClicable(chooseButton, "'Choose' button");
         chooseButton.sendKeys("C:\\Users\\NGorodenchuk.ARTFULBITS\\workplace\\com.traine\\src\\test\\java\\resources\\uploads\\testimage1.jpg");
-//        Thread.sleep(2000);
         JavascriptExecutor executor = (JavascriptExecutor)webDriver;
         executor.executeScript("arguments[0].click();", fluentWaitUntilElementBecomeClicable(submitButton,"'Submit' button"));
-//        Thread.sleep(2000);
         return PageFactory.initElements(webDriver, RegisterationStep2_1of3PopUp.class);
     }
 

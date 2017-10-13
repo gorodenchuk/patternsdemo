@@ -55,15 +55,10 @@ public class OrdersPageTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -103,15 +98,10 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -152,15 +142,10 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -201,15 +186,10 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -249,15 +229,10 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -298,15 +273,10 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -347,15 +317,10 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -401,15 +366,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -455,15 +415,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -509,15 +464,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -563,15 +513,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -617,15 +562,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -672,15 +612,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -727,15 +662,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -782,15 +712,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -837,15 +762,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -892,15 +812,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -947,15 +862,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -1002,15 +912,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -1056,15 +961,10 @@ public class OrdersPageTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -1109,15 +1009,10 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -1162,15 +1057,10 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -1215,15 +1105,10 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -1268,15 +1153,10 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -1321,15 +1201,10 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
 
@@ -1374,15 +1249,10 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -1432,15 +1302,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -1490,15 +1355,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -1548,15 +1408,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -1606,15 +1461,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -1664,15 +1514,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -1721,15 +1566,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -1779,15 +1619,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -1837,15 +1672,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -1895,15 +1725,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -1953,15 +1778,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -2011,15 +1831,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -2069,15 +1884,10 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        Thread.sleep(3000);
 
         LOG.info(ordersPage.getTotalPriceAferUsingDiscounts(generNumber1) + " == " + checkOutPage.calculateTotalPriceWithUsedDiscounts(totalSumOfProductPricesInOrderBlock, promoCodeValue, creditMoneyValue));
         LOG.info(totalSumOfProductPricesInOrderBlock);
@@ -2115,13 +1925,9 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         ordersPage.getOrderInformation(generNumber1);
 
@@ -2171,11 +1977,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        Thread.sleep(2000);
         CreateNewTab();
-        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem()
                 .getOrderInformation(generNumber1);
@@ -2229,16 +2032,12 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         fullAddress = confirmYourOrderPopUp.getUserAddress(generNumber1);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
 
-        // Thread.sleep(3000);
 
         LOG.info(fullAddress);
         LOG.info(ordersPage.getOrderAddress(generNumber1));
@@ -2277,18 +2076,14 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         ConfirmTheOperationPopUp confirmTheOperationPopUp = ordersPage.clickOnDeleteButtonAboveCreatedOrder(generNumber1);
         confirmTheOperationPopUp.IsLoaded();
         ordersPage = confirmTheOperationPopUp.clickOnYesButton();
 
-        // Thread.sleep(3000);
 
        try {
             webDriver.findElement(By.xpath("//li[@class='o-user data-color']//span[.='mmjtrain.test" + generNumber1 + "@gmail.com']" +
@@ -2331,18 +2126,14 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         ConfirmTheOperationPopUp confirmTheOperationPopUp = ordersPage.clickOnDeleteButtonAboveCreatedOrder(generNumber1);
         confirmTheOperationPopUp.IsLoaded();
         ordersPage = confirmTheOperationPopUp.clickOnYesButton();
         ordersPage.clickOnDeleteFilterButton();
-        // Thread.sleep(3000);
 
             Assert.assertTrue(webDriver.findElement(By.xpath("//li[@class='o-user data-color']//span[.='mmjtrain.test" + generNumber1 + "@gmail.com']"))
                     .isDisplayed());
@@ -2377,11 +2168,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         ConfirmTheOperationPopUp confirmTheOperationPopUp = ordersPage.clickOnDeleteButtonAboveCreatedOrder(generNumber1);
@@ -2431,11 +2219,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         ordersPage.clickOnPendingButton(generNumber1)
@@ -2477,11 +2262,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         ordersPage.clickOnPendingButton(generNumber1)
@@ -2525,11 +2307,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         ordersPage.clickOnPendingButton(generNumber1)
@@ -2573,11 +2352,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         ordersPage.clickOnPendingButton(generNumber1)
@@ -2621,11 +2397,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         ordersPage.clickOnNotPaidButton(generNumber1)
@@ -2665,11 +2438,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         ordersPage.clickOnNotPaidButton(generNumber1)
@@ -2711,11 +2481,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         ordersPage.clickOnNotYetShippedButton(generNumber1)
@@ -2755,11 +2522,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         ordersPage.clickOnNotYetShippedButton(generNumber1)
@@ -2803,11 +2567,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -2852,11 +2613,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -2865,7 +2623,6 @@ public class OrdersPageTestSuit extends TestBase {
         SwitchFromSecondTabToFirst();
         profilePage.refreshPage();
 
-        // Thread.sleep(1500);
 
         String fName = webDriver.findElement(By.xpath("//form[@id='profile_save_changes']/input[@name='firstname']")).getAttribute("value");
         String lName = webDriver.findElement(By.xpath("//form[@id='profile_save_changes']/input[@name='lastname']")).getAttribute("value");
@@ -2904,11 +2661,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -2952,11 +2706,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -3000,11 +2751,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -3049,11 +2797,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -3101,11 +2846,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -3159,11 +2901,8 @@ public class OrdersPageTestSuit extends TestBase {
                 . setPaymentDetails()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -3207,11 +2946,8 @@ public class OrdersPageTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -3266,17 +3002,13 @@ public class OrdersPageTestSuit extends TestBase {
         totalSumOfProductPricesInOrderBlock = checkOutPage.getTotalPriceBeforeUsingDiscounts();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
         sumOfPricesOfDeletedProductsInOrderPage = editOrderPage.clickOnDeleteButtonAboveCreatedProduct(generNumber1);
         editOrderPage.clickOkButtonInConfirmAlert();
-        // Thread.sleep(1000);
 
         Boolean isPresented = webDriver.findElements(By.xpath("//ul[@id='gr-6']")).size() > 0;
 
@@ -3337,18 +3069,14 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
         sumOfPricesOfDeletedProductsInOrderPage = editOrderPage.clickOnDeleteButtonAboveCreatedProduct(generNumber1);
         editOrderPage.clickOkButtonInConfirmAlert();
         ordersPage = editOrderPage.clickOnSaveButton();
-        // Thread.sleep(1000);
 
         Boolean isPresented = webDriver.findElements(By.xpath("//ul[@id='gr-6']")).size() > 0;
 
@@ -3409,18 +3137,14 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
         sumOfPricesOfDeletedProductsInOrderPage = editOrderPage.clickOnDeleteButtonAboveCreatedProduct(generNumber1);
         editOrderPage.clickOkButtonInConfirmAlert();
         ordersPage = editOrderPage.clickOnSaveButton();
-        // Thread.sleep(1000);
 
         Boolean isPresented = webDriver.findElements(By.xpath("//ul[@id='gr-6']")).size() > 0;
 
@@ -3481,11 +3205,8 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -3553,18 +3274,14 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
         sumOfPricesOfDeletedProductsInOrderPage = editOrderPage.clickOnDeleteButtonAboveCreatedProduct(generNumber1);
         editOrderPage.clickOkButtonInConfirmAlert();
         ordersPage = editOrderPage.clickOnSaveButton();
-        // Thread.sleep(1000);
 
         Boolean isPresented = webDriver.findElements(By.xpath("//ul[@id='gr-6']")).size() > 0;
 
@@ -3626,18 +3343,14 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
         sumOfPricesOfDeletedProductsInOrderPage = editOrderPage.clickOnDeleteButtonAboveCreatedProduct(generNumber1);
         editOrderPage.clickOkButtonInConfirmAlert();
         ordersPage = editOrderPage.clickOnSaveButton();
-        // Thread.sleep(1000);
 
         Boolean isPresented = webDriver.findElements(By.xpath("//ul[@id='gr-6']")).size() > 0;
 
@@ -3698,18 +3411,14 @@ public class OrdersPageTestSuit extends TestBase {
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.useCreditMoney()
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
         sumOfPricesOfDeletedProductsInOrderPage = editOrderPage.clickOnDeleteButtonAboveCreatedProduct(generNumber1);
         editOrderPage.clickOkButtonInConfirmAlert();
         ordersPage = editOrderPage.clickOnSaveButton();
-        // Thread.sleep(1000);
 
         Boolean isPresented = webDriver.findElements(By.xpath("//ul[@id='gr-6']")).size() > 0;
 
@@ -3772,18 +3481,14 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
         sumOfPricesOfDeletedProductsInOrderPage = editOrderPage.clickOnDeleteButtonAboveCreatedProduct(generNumber1);
         editOrderPage.clickOkButtonInConfirmAlert();
         ordersPage = editOrderPage.clickOnSaveButton();
-        // Thread.sleep(1000);
 
         Boolean isPresented = webDriver.findElements(By.xpath("//ul[@id='gr-6']")).size() > 0;
 
@@ -3846,18 +3551,14 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
         sumOfPricesOfDeletedProductsInOrderPage = editOrderPage.clickOnDeleteButtonAboveCreatedProduct(generNumber1);
         editOrderPage.clickOkButtonInConfirmAlert();
         ordersPage = editOrderPage.clickOnSaveButton();
-        // Thread.sleep(1000);
 
         Boolean isPresented = webDriver.findElements(By.xpath("//ul[@id='gr-6']")).size() > 0;
 
@@ -3920,18 +3621,14 @@ public class OrdersPageTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
         sumOfPricesOfDeletedProductsInOrderPage = editOrderPage.clickOnDeleteButtonAboveCreatedProduct(generNumber1);
         editOrderPage.clickOkButtonInConfirmAlert();
         ordersPage = editOrderPage.clickOnSaveButton();
-        // Thread.sleep(1000);
 
         Boolean isPresented = webDriver.findElements(By.xpath("//ul[@id='gr-6']")).size() > 0;
 
@@ -3989,11 +3686,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -4050,11 +3744,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -4111,11 +3802,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -4175,11 +3863,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -4238,11 +3923,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -4303,11 +3985,8 @@ public class OrdersPageTestSuit extends TestBase {
                 .setPaymentDetails();
         ConfirmYourOrderPopUp confirmYourOrderPopUp = checkOutPage.clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
         EditOrderPage editOrderPage = ordersPage.clickOnEditButtonAboveCreatedOrder(generNumber1);
@@ -4324,7 +4003,6 @@ public class OrdersPageTestSuit extends TestBase {
         if (newEditedProductPrice == oldEditedProductPrice)
             Assert.assertTrue(true, "price are different");
 
-//        MenuPage menuPage = new MenuPage(webDriver);
         menuPage.deleteInDbProductPromocodeUserAndOrder(generNumber1);
         menuPage.deleteInDbProductPromocodeUserAndOrder(generNumber2);
     }

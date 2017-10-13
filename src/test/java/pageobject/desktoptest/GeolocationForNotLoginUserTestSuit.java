@@ -553,7 +553,6 @@ public class GeolocationForNotLoginUserTestSuit extends TestBase{
 		signInPopUp.IsLoaded();
 		menuPage = signInPopUp.signInUser1ValidDatA(generNumber1);
 		menuPage.IsLoaded();
-		// Thread.sleep(1000);
 		menuPage.clcikOnYourLocationButton();
 
 		Assert.assertTrue(webDriver.findElement(By.xpath("//div[@class='btn-main btn-border user-location current-location standard-input text-left']/p[.='Lviv']"))

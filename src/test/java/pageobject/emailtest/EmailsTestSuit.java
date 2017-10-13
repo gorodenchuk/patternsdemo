@@ -501,44 +501,27 @@ public class EmailsTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
         orderMakingTime = dateTime.getTimeInLA();
-        // Thread.sleep(2000);
         CreateNewTab();
-        //        wait
-        // Thread.sleep(2000);
+
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        //        wait
-        // Thread.sleep(2000);
         EditClientPage editClientPage = navigationPanel.clickOnClientsNavMenuItem()
                 .clickOnClientStatusButton(emptyText);
         ClientsPage clientsPage = editClientPage.setFAndLName("TEST", "TEST")
                 .clickSaveBuuton();
         userName = clientsPage.getUserName(emptyText);
-        //        wait
-        // Thread.sleep(3000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        //        wait
-        // Thread.sleep(3000);
         fullUserName = ordersPage.getFullUserName(generNumber1);
         orderId = ordersPage.getOrderId(generNumber1);
-        //        wait
-        // Thread.sleep(2000);
         SwitchFromSecondTabToFirst();
-        //        wait
-        // Thread.sleep(2000);
         HistoryPage historyPage = profilePage.clickOnOrderHistoryButton();
         historyPage.clickCreatedOrderItem(orderMakingTime);
         CancleOrderPopUp cancleOrderPopUp = historyPage.clickonCancelButtonOnCreatedOrderItem(orderMakingTime);
         ProfilePage profilePage1 = cancleOrderPopUp.clickYesButton();
-        // Thread.sleep(2000);
 
         YourOrderHasBeenCanceled letter = new YourOrderHasBeenCanceled("Your order " + orderId +" has been canceled");
         letter.fetch(letter);
-
-        LOG.info(letter.getFullName());
-        LOG.info(letter.getDeliverInstruction());
 
         Assert.assertTrue("Yes".equals(letter.getSignature()),
                 "User signature set 'No'");
@@ -600,15 +583,10 @@ public class EmailsTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        // Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        // Thread.sleep(3000);
         userName = ordersPage.getUserName(generNumber1);
         ClientsPage clientsPage = navigationPanel.clickOnClientsNavMenuItem();
         EditClientPage editClientPage = clientsPage.clickOnClientStatusButton(emptyText);
@@ -667,15 +645,10 @@ public class EmailsTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        // Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        // Thread.sleep(3000);
         userName = ordersPage.getUserName(generNumber1);
         ClientsPage clientsPage = navigationPanel.clickOnClientsNavMenuItem();
         EditClientPage editClientPage = clientsPage.clickOnClientStatusButton(emptyText);
@@ -735,30 +708,20 @@ public class EmailsTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        //        wait
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        //        wait
-        // Thread.sleep(2000);
         EditClientPage editClientPage = navigationPanel.clickOnClientsNavMenuItem()
                 .clickOnClientStatusButton(emptyText);
         ClientsPage clientsPage = editClientPage.setFAndLName("TEST", "TEST")
                 .clickSaveBuuton();
         userName = clientsPage.getUserName(emptyText);
-        //        wait
-        // Thread.sleep(3000);
         editClientPage = clientsPage.clickOnClientStatusButton(emptyText);
         clientsPage = editClientPage.clickOnMedicalRecommendationStatus()
                 .clickSaveBuuton();
 
         TheStatusOfYourRecommendationIsDeclined letter = new TheStatusOfYourRecommendationIsDeclined("The status of your Recommendation is DECLINED!");
         letter.fetch(letter);
-
-        LOG.info(letter.getUserName());
 
         Assert.assertTrue(userName.equals(letter.getUserName()),
                 "User name in letter is missed or incorrect");
@@ -810,22 +773,14 @@ public class EmailsTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        //        wait
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        //        wait
-        // Thread.sleep(2000);
         EditClientPage editClientPage = navigationPanel.clickOnClientsNavMenuItem()
                 .clickOnClientStatusButton(emptyText);
         ClientsPage clientsPage = editClientPage.setFAndLName("TEST", "TEST")
                 .clickSaveBuuton();
         userName = clientsPage.getUserName(emptyText);
-        //        wait
-        // Thread.sleep(3000);
         editClientPage = clientsPage.clickOnClientStatusButton(emptyText);
         clientsPage = editClientPage.clickOnMedicalRecommendationStatus()
                 .clickSaveBuuton();
@@ -885,15 +840,10 @@ public class EmailsTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        // Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        // Thread.sleep(3000);
         userName = ordersPage.getUserName(generNumber1);
         ClientsPage clientsPage = navigationPanel.clickOnClientsNavMenuItem();
         EditClientPage editClientPage = clientsPage.clickOnClientStatusButton(emptyText);
@@ -954,23 +904,14 @@ public class EmailsTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        //        wait
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        //        wait
-        // Thread.sleep(2000);
-//        userName = ordersPage.getUserName(generNumber1);
         EditClientPage editClientPage = navigationPanel.clickOnClientsNavMenuItem()
                 .clickOnClientStatusButton(emptyText);
         ClientsPage clientsPage = editClientPage.setFAndLName("TEST", "TEST")
                 .clickSaveBuuton();
         userName = clientsPage.getUserName(emptyText);
-        //        wait
-        // Thread.sleep(3000);
         editClientPage = clientsPage.clickOnClientStatusButton(emptyText);
         clientsPage = editClientPage.clickOnPersonalRecommendationStatus()
                 .clickSaveBuuton();
@@ -1029,15 +970,10 @@ public class EmailsTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        // Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        // Thread.sleep(3000);
         userName = ordersPage.getUserName(generNumber1);
         ClientsPage clientsPage = navigationPanel.clickOnClientsNavMenuItem();
         EditClientPage editClientPage = clientsPage.clickOnClientStatusButton(emptyText);
@@ -1096,15 +1032,10 @@ public class EmailsTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-        // Thread.sleep(2000);
         CreateNewTab();
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        // Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        // Thread.sleep(3000);
         userName = ordersPage.getUserName(generNumber1);
         ClientsPage clientsPage = navigationPanel.clickOnClientsNavMenuItem();
         EditClientPage editClientPage = clientsPage.clickOnClientStatusButton(emptyText);
@@ -1161,15 +1092,10 @@ public class EmailsTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-//        Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
-//        Thread.sleep(2000);
         CreateNewTab();
-//        Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-//        Thread.sleep(2000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        // Thread.sleep(3000);
         ordersPage.getOrderInformation(generNumber1);
         ordersPage.clickOnNotPaidButton(generNumber1);
 
@@ -1246,13 +1172,8 @@ public class EmailsTestSuit extends TestBase {
                 .updateRec_ExpiredToValidDate(emptyText)
                 .navigateToPhotoRecPage();
         menuPage.IsLoaded();
-
         CreateNewTab();
-        //        wait
-        // Thread.sleep(2000);
         NavigationPanel navigationPanel = loginPage.loginSuperAdmin();
-        //        wait
-        // Thread.sleep(2000);
         EditClientPage editClientPage = navigationPanel.clickOnClientsNavMenuItem()
                 .clickOnClientStatusButton(emptyText);
         ClientsPage clientsPage = editClientPage.setFAndLName("TEST", "TEST")
@@ -1260,8 +1181,6 @@ public class EmailsTestSuit extends TestBase {
         userName = clientsPage.getUserName(emptyText);
 
         SwitchFromSecondTabToFirst();
-        //        wait
-        // Thread.sleep(2000);
         menuPage = menuPage.createInDbProductOzOuncePortion(generNumber1,10,50)
                 .refreshPage()
                 .addToCartCreatedInDbProduct(generNumber1);
@@ -1276,25 +1195,16 @@ public class EmailsTestSuit extends TestBase {
                 .useCreatedPromoCode(generNumber1)
                 .clickOnPlaceOrderButton();
         confirmYourOrderPopUp.IsLoaded();
-        // Thread.sleep(500);
         ProfilePage profilePage = confirmYourOrderPopUp.clickConfirmOrderButton();
         orderMakingTime = dateTime.getTimeInLA();
-        // Thread.sleep(2000);
        SwitchFromFirstPageToSecond();
-        //        wait
-        // Thread.sleep(3000);
         OrdersPage ordersPage = navigationPanel.clickOnordersNavMenuItem();
-        //        wait
-        // Thread.sleep(3000);
         fullUserName = ordersPage.getFullUserName(generNumber1);
         orderId = ordersPage.getOrderId(generNumber1);
         ordersPage.clickOnNotPaidButton(generNumber1);
 
         ThankYouForPlacingYourOrderWithMmjTrain letter = new ThankYouForPlacingYourOrderWithMmjTrain("Thank you for placing your order " + orderId + " with MMJ Train");
         letter.fetch(letter);
-
-        LOG.info(letter.getFullName());
-        LOG.info(letter.getDeliverInstruction());
 
         Assert.assertTrue("Yes".equals(letter.getSignature()),
                 "User signature set 'No'");

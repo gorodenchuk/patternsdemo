@@ -620,7 +620,6 @@ public class ParticularSignUpTestSuit extends TestBase{
 		Assert.assertTrue(webDriver.findElement(By.xpath("//form[@id='profile_save_changes']/p[.='email: Email already taken.']"))
 				.isDisplayed());
 
-
 		Users.deleteUser(generNumber1);
 		Users.deleteUser(generNumber2);
 	}
@@ -895,52 +894,6 @@ public class ParticularSignUpTestSuit extends TestBase{
 
 		Assert.assertFalse(false, "Send Verification Button is not Clickable");
 	}
-
-//////    CHECK!!!!
-//    @Test(groups = { "particularSingUp" })
-//    // TS 1.325
-//    public void checkThatUserCanUseVerificationCodeToVerifyHisNumberOnStep1_2of3Page() throws Exception {
-//        SignInPopUp signInPopUp = homePage.clickOnSignInButton();
-//	signInPopUp.IsLoaded();
-//        SignUpPopUp signUpPopUp = signInPopUp.clickOnSignUpButton();
-//	signUpPopUp.IsLoaded();
-//		RandomNumberGenerator.generateRandomInteger();
-//		String generNumber1 = RandomNumberGenerator.getGeneratedNumber();
-//        RegisterationStep1_1of3PopUp registerationStep1_1of3PopUp = signUpPopUp.signUpUser1ValidDatA(generNumber1);
-//        RegisterationStep1_2of3PopUp registerationStep1_2of3PopUp = registerationStep1_1of3PopUp.setValidDataAndClcikSendVerificationButton();
-//registerationStep1_2of3PopUp.IsLoaded();
-//        RegisterationStep2_1of3PopUp registerationStep21Of3PopUp = registerationStep1_2of3PopUp.verifyRecievedCode(generNumber1);
-//
-//        Assert.assertTrue(webDriver.findElement(By.xpath("//h3[contains(text(),'Identification')]"))
-//                .isDisplayed());
-//
-//
-//        Users.deleteUser(generNumber1);
-//    }
-
-////    CHECK!!!!
-//    @Test(groups = { "particularSingUp" })
-//    // TS 1.326
-//    public void checkThatUserCanRecieveResendedVerificationCodeAndVerifyHisNumberOnStep1_2_3Page() throws Exception {
-//        SignInPopUp signInPopUp = homePage.clickOnSignInButton();
-//	signInPopUp.IsLoaded();
-//        SignUpPopUp signUpPopUp = signInPopUp.clickOnSignUpButton();
-//	signUpPopUp.IsLoaded();
-//		RandomNumberGenerator.generateRandomInteger();
-//		String generNumber1 = RandomNumberGenerator.getGeneratedNumber();
-//        RegisterationStep1_1of3PopUp registerationStep1_1of3PopUp = signUpPopUp.signUpUser1ValidDatA(generNumber1);
-//        RegisterationStep1_2of3PopUp registerationStep1_2of3PopUp = registerationStep1_1of3PopUp.setValidDataAndClcikSendVerificationButton();
-//	registerationStep1_2of3PopUp.IsLoaded();
-//        RegisterationStep2_1of3PopUp registerationStep2of3PopUp = registerationStep1_2of3PopUp.clcikOnResendCodeButton();
-//	registerationStep2of3PopUp.IsLoaded();
-//
-//
-//        Users.deleteUser(generNumber1);
-//
-//            Assert.assertTrue(webDriver.findElement(By.xpath("//h3[contains(text(),'Identification')]"))
-//                    .isDisplayed());
-//
-//    }
 
 	@Test(groups = { "particularSingUp" })
 	// TS 1.328

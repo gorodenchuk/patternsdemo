@@ -115,10 +115,31 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/pageobject/googletest/GoogleTestSuit.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/pageobject/sigintest/ParticularSignInTestSuit.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/allure-results/423e8c78-1b94-40af-a9fc-083b98976e99-attachment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/Page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/HomePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/MenuPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/Messages1Page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/Messages3Page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/Messages5Page.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/RegisterationStep1of3Page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/pop_ups/SignInPopUp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/pop_ups/SignUpPopUp.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/testPages/GooglePage.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/testPages/GoogleResultPage.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/CheckEmail.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/CsvDataProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/EventHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/PropertyLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/TestExecutionListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/TestStepReporter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/WriterToFile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/webDriver/WebDriverFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/webDriver/WebWindow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/log/App.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/screenshots/checkSignUpWithValidData/checkSignUpWithValidData_06_07_2017_06_19_49.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire109081738895798960tmp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire_04285650968512620157tmp" afterPath="" />
@@ -126,6 +147,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pageobject/geolocationtest/GeolocationForNotLoginUserTestSuit.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pageobject/googletest/GoogleTestSuit.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pageobject/sigintest/ParticularSignInTestSuit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pageobject/testcase/TestBase.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/ParticularSignInTestSuit.checkSignUpWithCorrectData.csv" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../test.mev.com/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../test.mev.com/bin/.project" afterPath="" />
@@ -134,17 +156,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/mmjdoctoronline-core-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/mmjdoctoronline-core-0.0.1-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/resources/chrome-win/chromedriver.exe" afterPath="$PROJECT_DIR$/src/main/java/resources/chrome-win/chromedriver.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/resources/uploads/testImage1.jpg" afterPath="$PROJECT_DIR$/src/test/java/resources/uploads/testImage1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/Page.class" afterPath="$PROJECT_DIR$/target/classes/pageObject/pages/Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/HomePage.class" afterPath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/HomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/MenuPage.class" afterPath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/MenuPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/Messages1Page.class" afterPath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/Messages1Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/Messages3Page.class" afterPath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/Messages3Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/Messages5Page.class" afterPath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/Messages5Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/pop_ups/SignInPopUp.class" afterPath="$PROJECT_DIR$/target/classes/pageObject/pages/pop_ups/SignInPopUp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/pop_ups/SignUpPopUp.class" afterPath="$PROJECT_DIR$/target/classes/pageObject/pages/pop_ups/SignUpPopUp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/CsvDataProvider.class" afterPath="$PROJECT_DIR$/target/classes/pageObject/utility/CsvDataProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObject/webDriver/WebDriverFactory.class" afterPath="$PROJECT_DIR$/target/classes/pageObject/webDriver/WebDriverFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobject/testcase/TestBase.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobject/testcase/TestBase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SeleniumExample/SeleniumExample/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SeleniumExample/SeleniumExample/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../browserStack/.idea/misc.xml" afterPath="$PROJECT_DIR$/../browserStack/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../browserStack/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../browserStack/.idea/workspace.xml" />
@@ -194,11 +205,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/java/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobject/testcase/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/pageobject/testcase/TestBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/resources/page-object-test.xml" afterPath="$PROJECT_DIR$/src/test/java/resources/page-object-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/log/App.log" afterPath="$PROJECT_DIR$/target/log/App.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testGoogle.iml" afterPath="$PROJECT_DIR$/testGoogle.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson selenium-grid/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../lesson selenium-grid/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson seleniumWith3rdPartyLibs/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../lesson seleniumWith3rdPartyLibs/.idea/workspace.xml" />
@@ -241,58 +247,38 @@
       <file leaf-file-name="EmailsTestSuit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/emailtest/EmailsTestSuit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="375" column="24" lean-forward="false" selection-start-line="375" selection-start-column="24" selection-end-line="375" selection-end-column="24" />
+            <state relative-caret-position="17">
+              <caret line="1206" column="29" lean-forward="false" selection-start-line="1206" selection-start-column="29" selection-end-line="1206" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-object-test.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/resources/page-object-test.xml">
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/testcase/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="654">
+              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="110" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CsvDataProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/CsvDataProvider.java">
+      <file leaf-file-name="NavigationPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/commonWidgets/NavigationPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="663">
+              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/EventHandler.java">
+      <file leaf-file-name="GetLocationExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/location/GetLocationExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomNumberGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/RandomNumberGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebDriverFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/webDriver/WebDriverFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="72" column="73" lean-forward="false" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="73" />
+            <state relative-caret-position="442">
+              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -301,38 +287,58 @@
       <file leaf-file-name="ClientPageTestSuit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/adminpanel/ClientPageTestSuit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="706" column="0" lean-forward="false" selection-start-line="706" selection-start-column="0" selection-end-line="706" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrdersPageTestSuit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/adminpanel/OrdersPageTestSuit.java">
+      <file leaf-file-name="WebDriverFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/webDriver/WebDriverFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3027">
-              <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="518">
+              <caret line="72" column="58" lean-forward="true" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfirmYourOrderPopUp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/ConfirmYourOrderPopUp.java">
+      <file leaf-file-name="ProfilesIni.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/2.53.1/selenium-firefox-driver-2.53.1-sources.jar!/org/openqa/selenium/firefox/internal/ProfilesIni.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+              <caret line="109" column="24" lean-forward="false" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MakingOrderTestSuit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/MakingOrderTestSuit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParticularSignUpTestSuit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ParticularSignUpTestSuit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14943">
+              <caret line="895" column="5" lean-forward="false" selection-start-line="895" selection-start-column="5" selection-end-line="895" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductAndCartTestSuit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ProductAndCartTestSuit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -371,12 +377,14 @@
       <find>686</find>
       <find>ThatLogginedUserCanAddToCartPortionOzProductItemAndPricePortionNameDisplayCorrectOnCartButton</find>
       <find>enabled = true,</find>
-      <find>enabled = true,</find>
       <find>enabled = true</find>
-      <find>// Thread.sleep(1000);</find>
       <find>// Thread.sleep(1000);</find>
       <find>// Thread.sleep</find>
       <find>Thread.sleep</find>
+      <find>Threa</find>
+      <find>1.</find>
+      <find>C</find>
+      <find>C://</find>
     </findStrings>
     <replaceStrings>
       <replace>MenuPage menuPage = registerationStep3_1of3PopUp.uploadJpegfileOnStep3_1of3();</replace>
@@ -440,7 +448,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/commonWidgets/NavigationPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep2_2of3PopUp.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep2_1of3PopUp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobject/desktoptest/MakingOrderTestSuit.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ProductAndCartTestSuit.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobject/googletest/GoogleTestSuit.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/HomePage.java" />
@@ -448,7 +455,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/ConfirmYourOrderPopUp.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep1_2of3PopUp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ParticularSignUpTestSuit.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobject/desktoptest/GeolocationForNotLoginUserTestSuit.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/EditClientPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/OrdersPage.java" />
@@ -460,9 +466,11 @@
         <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/SignUpPopUp.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/FetchingEmail.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobject/adminpanel/ClientPageTestSuit.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobject/adminpanel/OrdersPageTestSuit.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobject/emailtest/EmailsTestSuit.java" />
         <option value="$PROJECT_DIR$/src/test/java/resources/page-object-test.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/adminpanel/OrdersPageTestSuit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/desktoptest/MakingOrderTestSuit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ParticularSignUpTestSuit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/emailtest/EmailsTestSuit.java" />
       </list>
     </option>
   </component>
@@ -529,20 +537,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -711,6 +705,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1022,13 +1020,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/WebDriver-mini-framework-master/WebDriver-mini-framework-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../com.mmjdoctoronline" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1530,7 +1528,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4935275" order="6" side_tool="false" content_ui="tabs" />
@@ -1546,7 +1543,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.48786408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30916846" sideWeight="0.49223948" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31556502" sideWeight="0.49223948" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.4935275" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.49367088" order="2" side_tool="false" content_ui="tabs" />
@@ -1624,76 +1621,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/allure-results/f8b33a2f-b0bb-4910-8038-32006a611cf9-attachment.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/f659fda7-f23d-4bcb-bdf6-79c4b0b381a9-attachment.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/f0588403-3807-4876-9756-f0ca5721e21d-attachment.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/fdf63131-7d11-415b-b11c-1267d8e225a3-attachment.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/fe31f275-e20f-4b38-9d9c-ec34a7bdaa37-attachment.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ProductAndCartTestSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/MakingOrderTestSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="3484" column="36" lean-forward="false" selection-start-line="3484" selection-start-column="10" selection-end-line="3484" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ParticularSignUpTestSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20706">
-          <caret line="1276" column="42" lean-forward="false" selection-start-line="1276" selection-start-column="42" selection-end-line="1276" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/GeolocationForNotLoginUserTestSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5802">
-          <caret line="555" column="0" lean-forward="false" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/commonWidgets/NavigationPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/allure-results/fdf63131-7d11-415b-b11c-1267d8e225a3-attachment.png" />
+    <entry file="file://$PROJECT_DIR$/target/allure-results/fe31f275-e20f-4b38-9d9c-ec34a7bdaa37-attachment.png" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/ClientsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1701,7 +1634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1709,7 +1641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
           <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1717,7 +1648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
           <caret line="127" column="41" lean-forward="true" selection-start-line="127" selection-start-column="41" selection-end-line="127" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1725,7 +1655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-808">
           <caret line="136" column="26" lean-forward="true" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1741,7 +1670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1749,7 +1677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1773,7 +1700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1781,7 +1707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1789,7 +1714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1805,7 +1729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1837,7 +1760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
           <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1861,7 +1783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1869,7 +1790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1877,7 +1797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1885,7 +1804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1893,7 +1811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
           <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1905,19 +1822,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/testPages/GooglePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/testPages/GooglePage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/MmjTrainOrderHasBeenProcessed.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1937,59 +1846,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/adminpanel/ClientPageTestSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="706" column="0" lean-forward="false" selection-start-line="706" selection-start-column="0" selection-end-line="706" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/ConfirmYourOrderPopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/adminpanel/OrdersPageTestSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3027">
-          <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/RandomNumberGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/emailtest/EmailsTestSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="375" column="24" lean-forward="false" selection-start-line="375" selection-start-column="24" selection-end-line="375" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2005,14 +1865,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/RandomNumberGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/ConfirmYourOrderPopUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/adminpanel/OrdersPageTestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67813">
+          <caret line="4005" column="0" lean-forward="false" selection-start-line="4005" selection-start-column="0" selection-end-line="4005" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/GeolocationForNotLoginUserTestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9129">
+          <caret line="555" column="0" lean-forward="false" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/MakingOrderTestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ProductAndCartTestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ParticularSignUpTestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14943">
+          <caret line="895" column="5" lean-forward="false" selection-start-line="895" selection-start-column="5" selection-end-line="895" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/adminpanel/ClientPageTestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/webDriver/WebDriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="72" column="73" lean-forward="false" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="73" />
+        <state relative-caret-position="518">
+          <caret line="72" column="58" lean-forward="true" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/2.53.1/selenium-firefox-driver-2.53.1-sources.jar!/org/openqa/selenium/firefox/internal/ProfilesIni.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="109" column="24" lean-forward="false" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/emailtest/EmailsTestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1206" column="29" lean-forward="false" selection-start-line="1206" selection-start-column="29" selection-end-line="1206" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/testcase/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="110" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/commonWidgets/NavigationPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/location/GetLocationExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="64" />
           <folding />
         </state>
       </provider>
@@ -2108,6 +2077,7 @@
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
     <option value="clean install site -Dlog4j.configurationFile=file:src/main/java/resources/log4j2.xml" />
+    <option value="clean" />
     <option value="clean install site" />
     <option value="install site" />
     <option value="jetty:stop" />

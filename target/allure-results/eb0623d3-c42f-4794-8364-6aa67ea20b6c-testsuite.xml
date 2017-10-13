@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1507895505509" stop="1507895506939" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
-    <name>MMJTest : SafariTesting[browserName=safari, config=single.conf.json]</name>
-    <title>MMJTest : SafariTesting[browserName=safari, config=single.conf.json]</title>
-    <labels>
-        <label name="framework" value="TestNG"/>
-        <label name="language" value="JAVA"/>
-    </labels>
-</ns2:test-suite>
