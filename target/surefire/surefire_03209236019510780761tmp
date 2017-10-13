@@ -1,0 +1,7 @@
+#surefire_0
+#Fri Oct 13 14:51:25 EEST 2017
+user.dir=C\:\\Users\\NGorodenchuk.ARTFULBITS\\workplace\\com.traine
+log4j.configurationFile=file\:src/main/java/resources/log4j2.xml
+idea.version=2017.1
+localRepository=C\:\\Users\\NGorodenchuk.ARTFULBITS\\.m2\\repository
+basedir=C\:\\Users\\NGorodenchuk.ARTFULBITS\\workplace\\com.traine

@@ -1,0 +1,8 @@
+pageobject\adminpanel\ClientPageTestSuit.class
+pageobject\emailtest\EmailsTestSuit.class
+pageobject\testcase\TestBase.class
+pageobject\desktoptest\MakingOrderTestSuit.class
+pageobject\desktoptest\ProductAndCartTestSuit.class
+pageobject\adminpanel\OrdersPageTestSuit.class
+pageobject\desktoptest\ParticularSignUpTestSuit.class
+pageobject\desktoptest\GeolocationForNotLoginUserTestSuit.class

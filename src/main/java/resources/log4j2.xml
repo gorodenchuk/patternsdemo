@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d %-5p %c{1}:%L - %msg%n" />
+        </Console>
+
+        <RollingFile name="RollingFile" filename="target/log/App.log"
+                     filepattern="$-fargo.log">
+            <PatternLayout pattern="%d %-5p %c{1}:%L - %msg%n" />
+            <Policies>
+                <SizeBasedTriggeringPolicy size="100 MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="20" />
+        </RollingFile>
+
+    </Appenders>
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="Console" level="debug"/>
+            <AppenderRef ref="Console" level="info"/>
+            <AppenderRef ref="RollingFile" level="debug"/>
+            <AppenderRef ref="RollingFile" level="info"/>
+        </Root>
+    </Loggers>
+</Configuration>

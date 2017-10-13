@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="browserName" value="firefox"/>
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="pageobject.mailtests.MailPageTestSuite"/>
+      <class name="pageObject.pages.Page"/>
+      <class name="pageObject.pages.enterapplication.HomeGPage2"/>
+      <class name="pageobject.loginEmail.LoginEmailTestSuit"/>
+      <class name="pageobject.hometest.HomePageTestSuit"/>
+      <class name="pageObject.pages.webDriver.WebDriverFactory"/>
+      <class name="pageobject.testcase.TestBase"/>
+      <class name="pageObject.pages.enterapplication.PasswordLoginPage"/>
+      <class name="pageObject.pages.enterapplication.EmailLoginPage"/>
+      <class name="pageObject.pages.enterapplication.MailPage"/>
+      <class name="pageObject.pages.enterapplication.AccountsPage"/>
+      <class name="pageObject.pages.enterapplication.HomeGPage"/>
+      <class name="workingWithFiles.PropertyLoader"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="pageobject.loginEmail.LoginEmailTestSuit">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pageobject.loginEmail.LoginEmailTestSuit -->
+      <class name="pageobject.hometest.HomePageTestSuit">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="logOut"/>
+        </methods>
+      </class> <!-- pageobject.hometest.HomePageTestSuit -->
+      <class name="pageobject.mailtests.MailPageTestSuite">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pageobject.mailtests.MailPageTestSuite -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

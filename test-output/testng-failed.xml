@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [PageObjectExampleTest]">
+  <parameter name="browserName" value="firefox"/>
+  <test name="MailPageTesting">
+    <classes>
+      <class name="pageobject.hometest.HomePageTestSuit"/>
+    </classes>
+  </test> <!-- MailPageTesting -->
+  <test name="MailPageTesting(failed)">
+    <classes>
+      <class name="pageobject.hometest.HomePageTestSuit">
+        <methods>
+          <include name="logOutV3"/>
+          <include name="logOutV2"/>
+          <include name="setup"/>
+          <include name="logOutV5"/>
+          <include name="logOutV4"/>
+          <include name="logOutV6"/>
+          <include name="setScreenshot"/>
+        </methods>
+      </class> <!-- pageobject.hometest.HomePageTestSuit -->
+    </classes>
+  </test> <!-- MailPageTesting(failed) -->
+</suite> <!-- Failed suite [PageObjectExampleTest] -->
