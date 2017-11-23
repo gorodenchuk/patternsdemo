@@ -30,7 +30,7 @@
         <versions-maven-plugin.version>2.2</versions-maven-plugin.version>
 
         <!-- Directory Properties -->
-        <!--<resource-test.directory>${project.basedir}/src/test/resources</resource-test.directory>-->
+        <!--<resource-Test.directory>${project.basedir}/src/Test/resources</resource-Test.directory>-->
         <!--<allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>-->
         <!--<allure.report.directory>${project.build.directory}/site/allure-report</allure.report.directory>-->
 

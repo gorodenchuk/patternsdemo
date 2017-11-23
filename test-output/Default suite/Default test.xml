@@ -160,4 +160,4 @@ Caused by: java.net.ConnectException: Connection refused: connect
 ]]>
     </failure>
   </testcase> <!-- logOut -->
-</testsuite> <!-- Default test -->
+</testsuite> <!-- Default Test -->

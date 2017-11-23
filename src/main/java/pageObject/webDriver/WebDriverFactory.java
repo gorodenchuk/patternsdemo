@@ -56,7 +56,7 @@ public class WebDriverFactory {
 
 				ChromeOptions options = new ChromeOptions();
 				// set some options
-				options.addArguments("test-type");
+				options.addArguments("Test-type");
 
 //				Accept auto geolocationtest in pop-up for chrome
 //				options.setExperimentalOption("prefs", new JSONObject().

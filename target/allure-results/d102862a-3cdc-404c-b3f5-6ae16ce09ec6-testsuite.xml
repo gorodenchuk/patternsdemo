@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1511456856504" stop="1511456879070" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]</name>
+    <title>MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]</title>
+    <test-cases>
+        <test-case start="1511456856531" stop="1511456856539" status="pending">
+            <name>checkRedirectionToMenuPageAfterAddingLocationManually</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPUALVIW0912"/>
+                <label name="thread" value="17316@EPUALVIW0912.TestNG(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511456856540" stop="1511456856540" status="pending">
+            <name>checkRedirectionToMenuPageAfterAddingLocationManually</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPUALVIW0912"/>
+                <label name="thread" value="17316@EPUALVIW0912.TestNG(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511456856547" stop="1511456856547" status="pending">
+            <name>checkRedirectionToMenuPageAfterAddingLocationAutomatically</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPUALVIW0912"/>
+                <label name="thread" value="17316@EPUALVIW0912.TestNG(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511456863163" stop="1511456864322" status="passed">
+            <name>checkLogInAdminUser</name>
+            <steps>
+                <step start="1511456863294" stop="1511456863412" status="passed">
+                    <name>clickOnSignInButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPUALVIW0912"/>
+                <label name="thread" value="17316@EPUALVIW0912.TestNG(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511456870336" stop="1511456871196" status="passed">
+            <name>checkLogInManagerUser</name>
+            <steps>
+                <step start="1511456870337" stop="1511456870437" status="passed">
+                    <name>clickOnSignInButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPUALVIW0912"/>
+                <label name="thread" value="17316@EPUALVIW0912.TestNG(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511456877169" stop="1511456878022" status="passed">
+            <name>checkLogInShipperUser</name>
+            <steps>
+                <step start="1511456877170" stop="1511456877270" status="passed">
+                    <name>clickOnSignInButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPUALVIW0912"/>
+                <label name="thread" value="17316@EPUALVIW0912.TestNG(15)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

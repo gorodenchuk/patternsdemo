@@ -10,12 +10,13 @@ import java.util.Properties;
  */
 public class PropertyLoader {
 	private static Properties props = new Properties();
-	private static final String PROP_FILE = "src\\main\\java\\resources\\application.properties";
+//	private static final String PROP_FILE = "src\\main\\java\\resources\\application.properties";
+	public String propFile;
 
-	public static String loadProperty(String name) {
+	public static String loadProperty(String name, String propFile) {
 		
 		try {
-			 props.load(new FileInputStream(PROP_FILE));
+			 props.load(new FileInputStream(propFile));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

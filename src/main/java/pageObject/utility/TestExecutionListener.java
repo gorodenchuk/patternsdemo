@@ -29,7 +29,7 @@ public class TestExecutionListener extends TestListenerAdapter {
 	private static final Logger LOG = LogManager.getLogger(TestExecutionListener.class);
 
 	/**
-	 * Prints the test results to report.
+	 * Prints the Test results to report.
 	 *
 	 * @param result
 	 *            the result
@@ -82,7 +82,7 @@ public class TestExecutionListener extends TestListenerAdapter {
 
 
 	public void takeScreenshot(ITestResult result) {
-		//creating screenshot folder for test
+		//creating screenshot folder for Test
 		String folder = SCREENSHOT_FOLDER + "/" + result.getName();
 		File dir = new File(folder);
 			if (!dir.exists()) {
@@ -117,11 +117,11 @@ public class TestExecutionListener extends TestListenerAdapter {
 
 	}
 
-	@Attachment(value = "Browser screenshot after test failed", type = "image/png")
+	@Attachment(value = "Browser screenshot after Test failed", type = "image/png")
 	private byte[] createWebBrowserScreenShot(ITestResult result) {
 		String currentTestName = TestExecutionListener.getTestName(result);
 		BufferedImage image = null;
-		LOG.debug("Writing out web browser screenshot on {} test failure",
+		LOG.debug("Writing out web browser screenshot on {} Test failure",
 				currentTestName);
 		WebDriver driver = WebDriverFactory.getSetDriver();
 		try {
@@ -137,7 +137,7 @@ public class TestExecutionListener extends TestListenerAdapter {
 			image = ImageIO.read(imageFile);
 		} catch (IOException e) {
 			LOG.error(
-					"Cannot read browser screenshot created file and convert it to Buffered Image object for test: "
+					"Cannot read browser screenshot created file and convert it to Buffered Image object for Test: "
 							+ currentTestName, e);
 		}
 //		saveScreenshotFileToLog(image, currentTestName,

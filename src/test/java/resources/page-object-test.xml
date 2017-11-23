@@ -7,76 +7,41 @@
     <test name="ChromeTesting">
         <parameter name="config" value="single.conf.json"/>
         <parameter name="browserName" value="chrome"/>
-        <groups>
-            <run>
-                <exclude name="clients"  />
-                <exclude name="orders"  />
-                <exclude name="geolocation"  />
-                <exclude name="makingOrder"  />
-                <exclude name="particularSingUp"  />
-                <exclude name="productAndCart"  />
-                <include name="emails"  />
-            </run>
-        </groups>
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<exclude name="geolocation"/>-->
+            <!--</run>-->
+        <!--</groups>-->
 
         <classes>
-            <class name="pageobject.desktoptest.GeolocationForNotLoginUserTestSuit" />
-            <class name="pageobject.desktoptest.ParticularSignUpTestSuit"/>
-            <class name="pageobject.desktoptest.MakingOrderTestSuit"/>
-            <class name="pageobject.desktoptest.ProductAndCartTestSuit"/>
-            <class name="pageobject.adminpanel.OrdersPageTestSuit"/>
-            <class name="pageobject.adminpanel.ClientPageTestSuit"/>
-            <class name="pageobject.emailtest.EmailsTestSuit" />
+            <class name="pageobject.buildertest.DemoTestSuit"/>
+            <class name="pageobject.strategytest.DemoTestSuit"/>
+            <class name="pageobject.facadetest.DemoTestSuit"/>
         </classes>
     </test>
-    <test name="FirefoxTesting">
-        <parameter name="config" value="single.conf.json"/>
-        <parameter name="browserName" value="firefox"/>
-        <groups>
-            <run>
-                <exclude name="clients"  />
-                <exclude name="orders"  />
-                <exclude name="geolocation"  />
-                <exclude name="makingOrder"  />
-                <exclude name="particularSingUp"  />
-                <exclude name="productAndCart"  />
-                <exclude name="emails"  />
-            </run>
-        </groups>
+    <!--<Test name="FirefoxTesting">-->
+        <!--<parameter name="config" value="single.conf.json"/>-->
+        <!--<parameter name="browserName" value="firefox"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<exclude name="clients"/>-->
+                <!--<exclude name="orders"/>-->
+                <!--<exclude name="geolocation"/>-->
+                <!--<exclude name="makingOrder"/>-->
+                <!--<exclude name="particularSingUp"/>-->
+                <!--<exclude name="productAndCart"/>-->
+                <!--<exclude name="emails"/>-->
+            <!--</run>-->
+        <!--</groups>-->
 
-        <classes>
-            <class name="pageobject.desktoptest.GeolocationForNotLoginUserTestSuit" />
-            <class name="pageobject.desktoptest.ParticularSignUpTestSuit"/>
-            <class name="pageobject.desktoptest.MakingOrderTestSuit"/>
-            <class name="pageobject.desktoptest.ProductAndCartTestSuit"/>
-            <class name="pageobject.adminpanel.OrdersPageTestSuit"/>
-            <class name="pageobject.adminpanel.ClientPageTestSuit"/>
-            <class name="pageobject.emailtest.EmailsTestSuit" />
-        </classes>
-    </test>
-    <test name="SafariTesting">
-        <parameter name="config" value="single.conf.json"/>
-        <parameter name="browserName" value="safari"/>
-        <groups>
-            <run>
-                <exclude name="clients"  />
-                <exclude name="orders"  />
-                <exclude name="geolocation"  />
-                <exclude name="makingOrder"  />
-                <exclude name="particularSingUp"  />
-                <exclude name="productAndCart"  />
-                <exclude name="emails"  />
-            </run>
-        </groups>
-
-        <classes>
-            <class name="pageobject.desktoptest.GeolocationForNotLoginUserTestSuit" />
-            <class name="pageobject.desktoptest.ParticularSignUpTestSuit"/>
-            <class name="pageobject.desktoptest.MakingOrderTestSuit"/>
-            <class name="pageobject.desktoptest.ProductAndCartTestSuit"/>
-            <class name="pageobject.adminpanel.OrdersPageTestSuit"/>
-            <class name="pageobject.adminpanel.ClientPageTestSuit"/>
-            <class name="pageobject.emailtest.EmailsTestSuit" />
-        </classes>
-    </test>
+        <!--<classes>-->
+            <!--<class name="pageobject.desktoptest.GeolocationForNotLoginUserTestSuit"/>-->
+            <!--<class name="pageobject.desktoptest.ParticularSignUpTestSuit"/>-->
+            <!--<class name="pageobject.desktoptest.MakingOrderTestSuit"/>-->
+            <!--<class name="pageobject.desktoptest.ProductAndCartTestSuit"/>-->
+            <!--<class name="pageobject.adminpanel.OrdersPageTestSuit"/>-->
+            <!--<class name="pageobject.adminpanel.ClientPageTestSuit"/>-->
+            <!--<class name="pageobject.emailtest.EmailsTestSuit"/>-->
+        <!--</classes>-->
+    <!--</Test>-->
 </suite>

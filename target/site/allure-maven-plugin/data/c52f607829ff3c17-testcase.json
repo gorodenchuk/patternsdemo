@@ -1,0 +1,50 @@
+{
+  "uid" : "c52f607829ff3c17",
+  "name" : "checkRedirectionToMenuPageAfterAddingLocationAutomatically",
+  "title" : "Check redirection to menu page after adding location automatically",
+  "time" : {
+    "start" : 1511456856547,
+    "stop" : 1511456856547,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Test not implemented yet",
+    "stackTrace" : "There are no stack trace"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a0e56089d1a4d38f",
+    "name" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]",
+    "title" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "17316@EPUALVIW0912.TestNG(15)"
+  }, {
+    "name" : "host",
+    "value" : "EPUALVIW0912"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]"
+  }, {
+    "name" : "suite-name",
+    "value" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]"
+  } ],
+  "parameters" : [ ]
+}

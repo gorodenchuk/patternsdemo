@@ -1,216 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90b77413-6b29-4c56-9c0a-f6b3a774c6ac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pageobject/HomePageTestSuite.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pageobject/TestBase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pages/HomePage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pages/OpenedResultPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pages/Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pages/SearchResultPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pages/WebDriverFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/resources/page-object-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pageobject/HomePageTestSuite.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pageobject/TestBase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pages/HomePage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pages/OpenedResultPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pages/Page.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pages/SearchResultPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pages/WebDriverFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/resources/page-object-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/Default suite/Default test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/Default suite/Default test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/Default suite/testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/PageObjectExampleTest/TestLQAS.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/PageObjectExampleTest/TestLQAS.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/PageObjectExampleTest/TestMissionImposible.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/PageObjectExampleTest/TestMissionImposible.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/PageObjectExampleTest/testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/bullet_point.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/collapseall.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/emailable-report.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/failed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/junitreports/TEST-pageobject.HomePageTestSuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/navigator-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/Default test.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/methods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/TestLQAS.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/TestMissionImposible.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/methods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/passed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/skipped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/testng-reports.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/testng-reports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/testng-results.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/testng.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/allure-results/b51f65f6-82df-4802-a03e-7d12e9b9fa97-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/4d03e243935dd5be-testcase.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/e5fc9ae9d72c3280-testcase.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/f778a1a988dd4cb-testcase.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_22.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_26.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_26.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_25.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_3_v20170317.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_3_v20170317.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_1_v20170120.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_1_v20170120.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_3_v20170317.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_3_v20170317.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_3_v20170317.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_26.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/RegisterationStep1of3Page.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/pageObject/pages/testPages/GooglePage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/pageObject/pages/testPages/GoogleResultPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/pageObject/utility/CheckEmail.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/pageObject/utility/JDBCConnector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/pageobject/geolocationtest/GeolocationForNotLoginUserTestSuit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/pageobject/googletest/GoogleTestSuit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/pageobject/sigintest/ParticularSignInTestSuit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/allure-results/423e8c78-1b94-40af-a9fc-083b98976e99-attachment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/HomePage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/MenuPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/Messages1Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/Messages3Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/Messages5Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/mmjtraine/RegisterationStep1of3Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/pop_ups/SignInPopUp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/pop_ups/SignUpPopUp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/testPages/GooglePage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/pages/testPages/GoogleResultPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/CheckEmail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/CsvDataProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/EventHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/PropertyLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/TestExecutionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/TestStepReporter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/utility/WriterToFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/webDriver/WebDriverFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageObject/webDriver/WebWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/log/App.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/screenshots/checkSignUpWithValidData/checkSignUpWithValidData_06_07_2017_06_19_49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire109081738895798960tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire_04285650968512620157tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4237294579590064032.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pageobject/geolocationtest/GeolocationForNotLoginUserTestSuit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pageobject/googletest/GoogleTestSuit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pageobject/sigintest/ParticularSignInTestSuit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pageobject/testcase/TestBase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/ParticularSignInTestSuit.checkSignUpWithCorrectData.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../test.mev.com/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../test.mev.com/bin/.project" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/classes/pageObject/utility/TestExecutionListener.class" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/classes/pageObject/utility/TestExecutionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/classes/pageObject/utility/TestStepReporter.class" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/classes/pageObject/utility/TestStepReporter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/mmjdoctoronline-core-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/mmjdoctoronline-core-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/resources/chrome-win/chromedriver.exe" afterPath="$PROJECT_DIR$/src/main/java/resources/chrome-win/chromedriver.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/resources/uploads/testImage1.jpg" afterPath="$PROJECT_DIR$/src/test/java/resources/uploads/testImage1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SeleniumExample/SeleniumExample/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SeleniumExample/SeleniumExample/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../browserStack/.idea/misc.xml" afterPath="$PROJECT_DIR$/../browserStack/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../browserStack/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../browserStack/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline- radioscovoroda/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline- radioscovoroda/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline/src/main/java/pageObject/pages/enterapplication/mmjdoctoronline/AdditionalServicesPage.java" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline/src/main/java/pageObject/pages/enterapplication/mmjdoctoronline/AdditionalServicesPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/.idea/misc.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/log/App.log" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/log/App.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin.html" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/behaviors.json" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/behaviors.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/defects.json" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/defects.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/environment.json" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/environment.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/graph.json" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/graph.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/report.json" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/report.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/timeline.json" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/timeline.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/total.json" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/total.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/widgets.json" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/widgets.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/xunit.json" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/allure-maven-plugin/data/xunit.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/project-reports.html" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/site/project-reports.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/OrderMakingTestSuit/OrderTesting.html" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/OrderMakingTestSuit/OrderTesting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/OrderMakingTestSuit/OrderTesting.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/OrderMakingTestSuit/OrderTesting.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/TestSuite.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/junitreports/TEST-pageobject.oredersonmmjtest.OrderMakingTestSuit.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/junitreports/TEST-pageobject.oredersonmmjtest.OrderMakingTestSuit.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/old/OrderMakingTestSuit/methods-alphabetical.html" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/old/OrderMakingTestSuit/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/old/OrderMakingTestSuit/methods.html" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/old/OrderMakingTestSuit/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/target/surefire-reports/testng-results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObject/pages/Page.java" afterPath="$PROJECT_DIR$/src/main/java/pageObject/pages/Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/HomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/MenuPage.java" afterPath="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/MenuPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/Messages1Page.java" afterPath="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/Messages1Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/Messages3Page.java" afterPath="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/Messages3Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/Messages5Page.java" afterPath="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/Messages5Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/SignInPopUp.java" afterPath="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/SignInPopUp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/SignUpPopUp.java" afterPath="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/SignUpPopUp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObject/utility/CsvDataProvider.java" afterPath="$PROJECT_DIR$/src/main/java/pageObject/utility/CsvDataProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObject/webDriver/WebDriverFactory.java" afterPath="$PROJECT_DIR$/src/main/java/pageObject/webDriver/WebDriverFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/java/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobject/testcase/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/pageobject/testcase/TestBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/resources/page-object-test.xml" afterPath="$PROJECT_DIR$/src/test/java/resources/page-object-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testGoogle.iml" afterPath="$PROJECT_DIR$/testGoogle.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson selenium-grid/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../lesson selenium-grid/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson seleniumWith3rdPartyLibs/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../lesson seleniumWith3rdPartyLibs/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson_java5_1(jdbc)/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../lesson_java5_1(jdbc)/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson_web.framework/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../lesson_web.framework/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="90b77413-6b29-4c56-9c0a-f6b3a774c6ac" name="Default" comment="" />
     <ignored path="emailStage.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -222,129 +13,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/emailStage$MakingOrderTestSuit_checkThatLogginedUserCanAddToCart18OzOfFlowerItemSativaStrainFromPortionProductItemAndPriceWillBeDisplayedOnCartButton.coverage" NAME="MakingOrderTestSuit.checkThatLogginedUserCanAddToCart18OzOfFlowerItemSativaStrainFromPortionProductItemAndPriceWillBeDisplayedOnCartButton Coverage Results" MODIFIED="1504002735368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/emailStage$GeolocationForNotLoginUserTestSuit_checkIfAtMenuPageDisplaysUserLocationThatHeSatManualyAtMessage5Page.coverage" NAME="GeolocationForNotLoginUserTestSuit.checkIfAtMenuPageDisplaysUserLocationThatHeSatManualyAtMessage5Page Coverage Results" MODIFIED="1501080559395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>pageobject.desktoptest.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/emailStage$resources_chrome_lin.coverage" NAME="resources.chrome-lin Coverage Results" MODIFIED="1479220017278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>resources.chrome-lin.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/emailStage$MakingOrderTestSuit_checkThatLogginedUserCanAddToCart18OzOfFlowerItemSativaStrainFromPortionProductItemAndPriceWillBeDisplayedOnCartButton.coverage" NAME="MakingOrderTestSuit.checkThatLogginedUserCanAddToCart18OzOfFlowerItemSativaStrainFromPortionProductItemAndPriceWillBeDisplayedOnCartButton Coverage Results" MODIFIED="1504002735368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pageobject.desktoptest.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/emailStage$WelcomeToMmjTrain.coverage" NAME="WelcomeToMmjTrain Coverage Results" MODIFIED="1506947820220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>pageObject.utility.emailTest.letters.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/emailStage$GeolocationForNotLoginUserTestSuit_checkIfAtMenuPageDisplaysUserLocationThatHeSatManualyAtMessage5Page.coverage" NAME="GeolocationForNotLoginUserTestSuit.checkIfAtMenuPageDisplaysUserLocationThatHeSatManualyAtMessage5Page Coverage Results" MODIFIED="1501080559395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>pageobject.desktoptest.*</FILTER>
     </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="emailStage" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EmailsTestSuit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/emailtest/EmailsTestSuit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1206" column="29" lean-forward="false" selection-start-line="1206" selection-start-column="29" selection-end-line="1206" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/testcase/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="110" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavigationPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/commonWidgets/NavigationPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetLocationExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/location/GetLocationExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientPageTestSuit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/adminpanel/ClientPageTestSuit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebDriverFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/webDriver/WebDriverFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="72" column="58" lean-forward="true" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfilesIni.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/2.53.1/selenium-firefox-driver-2.53.1-sources.jar!/org/openqa/selenium/firefox/internal/ProfilesIni.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="109" column="24" lean-forward="false" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakingOrderTestSuit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/MakingOrderTestSuit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParticularSignUpTestSuit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ParticularSignUpTestSuit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14943">
-              <caret line="895" column="5" lean-forward="false" selection-start-line="895" selection-start-column="5" selection-end-line="895" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductAndCartTestSuit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ProductAndCartTestSuit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -420,57 +109,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/target/log/App.log" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/webDriver/WebDriverFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/DB/DbTables/Users.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/DateTime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/ResetYourPasswordPopUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/YourMmjTrainOrderHasNowBeenShipped.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/WelcomeToMmjTrain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/TheStatusOfYourRecommendationIsDeclined.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/TheStatusOfYourIdIsDeclined.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/ThankYouForPlacingYourOrderWithMmjTrain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/MmmjTrainPasswordReset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/MmjTrainOrderHasBeenProcessed.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/EditClientPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/DashBoardPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/CancleOrderPopUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/HistoryPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/OrdersPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/ClientsPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/YourOrderHasBeenCanceled.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/CheckOutPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/CreateNewPasswordPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobject/testcase/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/commonWidgets/NavigationPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/NavigationPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/commonWidgets/NavigationPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep2_2of3PopUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep2_1of3PopUp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ProductAndCartTestSuit.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobject/googletest/GoogleTestSuit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/propertyreader/PropertyLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/propertyreader/PropertyLoaderHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/propertyreader/IPropertyLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/propertyreader/ManagerLoginProps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/propertyreader/SuperAdminLoginProps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/propertyreader/UserLoginProps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/propertyreader/ShipperLoginProps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/ProfilePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/ConfirmYourOrderPopUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/Page.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep1_2of3PopUp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobject/desktoptest/GeolocationForNotLoginUserTestSuit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/EditClientPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/OrdersPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/geolocationstrategy/GeolocationStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/geolocationstrategy/ManualLocation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/builder/ProductItemBuilder.java" />
+        <option value="$PROJECT_DIR$/../patternsexamples/src/creational/builder/ProductItemBuilder.java" />
+        <option value="$PROJECT_DIR$/../patternsexamples/src/creational/builder/Computer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/builder/PortionProductItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/productitembuilder/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/productitembuilder/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/productitembuilder/PortionProductItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/productitembuilder/ProductItemHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/productitembuilder/QuantityProductItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/MenuPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/Messages3Page.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep1_1of3PopUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep3_1of3PopUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/SignInPopUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/SignUpPopUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/FetchingEmail.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobject/adminpanel/ClientPageTestSuit.java" />
-        <option value="$PROJECT_DIR$/src/test/java/resources/page-object-test.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobject/adminpanel/OrdersPageTestSuit.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobject/desktoptest/MakingOrderTestSuit.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ParticularSignUpTestSuit.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobject/emailtest/EmailsTestSuit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/pop_ups/RegisterationStep2_2of3PopUp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/pages/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pages/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/YourMmjTrainOrderHasNowBeenShipped.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/MmmjTrainPasswordReset.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/FetchingEmailHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/IFetchingEmail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/facadeest/DemoTestSuit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/testcase/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/FetchingEmailHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/FetchingEmail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/WelcomeToMmjTrain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/emails/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/DB/DbTables/Menu_Product_Prices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/utility/PropertyLoader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/resources/testdata/manager_login.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pop_ups/SignUpPopUp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/businessobject/useresfacade/IUsers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/businessobject/useresfacade/Shipper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/businessobject/useresfacade/Admin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/businessobject/useresfacade/Manager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/resources/page-object-test.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/businessobject/useresfacade/UserHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pop_ups/SignInPopUp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/facadetest/DemoTestSuit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/strategytest/DemoTestSuit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/buildertest/DemoTestSuit.java" />
       </list>
     </option>
   </component>
@@ -483,28 +172,30 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/Program Files/apache-maven-3.3.9-bin/apache-maven-3.3.9" />
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.5.0" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="mmjdoctoronline-core" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mmjdoctoronline-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mmjdoctoronline-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
     </treeState>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -528,509 +219,129 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageobject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testcase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageobject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageobject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desktoptest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageobject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminpanel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webDriver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="letters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pop_ups" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mmjtraine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminpanel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailStage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.traine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminpanel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commonWidgets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
+              <item name="mmjtraine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
+              <item name="buildertest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
+              <item name="facadetest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
+              <item name="strategytest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.traine - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../com.mmjdoctoronline" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../com.traine" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -1039,26 +350,28 @@
       <recent name="pageObject.utility" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nazar_Gorodenchuk\workplace\com.traine - Copy\src\test\java\resources\testdata" />
       <recent name="C:\Users\NGorodenchuk.ARTFULBITS\workplace\com.traine\src\main\java\resources" />
       <recent name="C:\Users\NGorodenchuk.ARTFULBITS\workplace\com.traine\src\test\java\resources" />
       <recent name="C:\Users\NGorodenchuk.ARTFULBITS\workplace\com.traine\testdata" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pageObject.pages.mmjtraine" />
       <recent name="resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nazar_Gorodenchuk\workplace\com.traine - Copy\src\main\java\pageObject\utility" />
+      <recent name="C:\Users\Nazar_Gorodenchuk\workplace\com.traine - Copy\src\main\java\pageObject\pages\mmjtraine" />
+      <recent name="C:\Users\Nazar_Gorodenchuk\workplace\com.traine - Copy\src\test\java\resources\testdata" />
+      <recent name="C:\Users\Nazar_Gorodenchuk\workplace\com.traine - Copy\src\main\java\pageObject" />
       <recent name="C:\Users\NGorodenchuk.ARTFULBITS\workplace\com.traine\test_data" />
-      <recent name="C:\Users\NGorodenchuk.ARTFULBITS\workplace\com.traine\src\main\java\resources" />
-      <recent name="C:\Users\NGorodenchuk.ARTFULBITS\workplace\com.traine\src\main\java\pageObject\utility" />
-      <recent name="C:\Users\NGorodenchuk.ARTFULBITS\workplace\com.traine\src\main\java\pageObject\pages\enterapplication\mmjtraine" />
-      <recent name="C:\Users\gorod\Desktop\com.mmjdoctoronline- radioscovoroda\src\main\java\pageObject\utility" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pageObject.pages.mmjtraine" />
-      <recent name="pageObject.pages.pop_ups" />
+      <recent name="pageobject.facadetest" />
+      <recent name="pageObject.utility" />
       <recent name="pageobject.emailtest" />
-      <recent name="pageObject.utility.emailTest.letters" />
-      <recent name="pageObject.utility.emailTest" />
+      <recent name="pageObject.pages.mmjtraine.productitembuilder" />
+      <recent name="pageObject.pages.mmjtraine.builder" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pageObject.utility" />
@@ -1076,79 +389,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/NGorodenchuk.ARTFULBITS/workplace/com.traine/src/test/java/resources/page-object-test.xml">
-    <configuration default="false" name="C:/Users/NGorodenchuk.ARTFULBITS/workplace/com.traine/src/test/java/resources/page-object-test.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="testGoogle" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/page-object-test.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="DateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DemoTestSuit">
+    <configuration name="DemoTestSuit" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="pageObject.utility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="pageObject.utility.DateTime" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="testGoogle" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="GoogleTestSuit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pageobject.googletest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="pageobject.googletest.GoogleTestSuit" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="testGoogle" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="GoogleTestSuit.checkRecievingRecommendationDeclinedLetterAfterChangeingFromPenndingToDelcined" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pageobject.googletest.*" />
+          <option name="PATTERN" value="pageobject.facadetest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1156,11 +401,11 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="pageobject.googletest" />
-      <option name="MAIN_CLASS_NAME" value="pageobject.googletest.GoogleTestSuit" />
-      <option name="METHOD_NAME" value="checkRecievingRecommendationDeclinedLetterAfterChangeingFromPenndingToDelcined" />
+      <option name="PACKAGE_NAME" value="pageobject.facadetest" />
+      <option name="MAIN_CLASS_NAME" value="pageobject.facadetest.DemoTestSuit" />
+      <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1176,16 +421,15 @@
       <envs />
       <properties />
       <listeners />
-      <method />
     </configuration>
-    <configuration default="false" name="ThankYouForPlacingYourOrderWithMmjTrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FetchingEmailHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="pageObject.utility.emails.letters.*" />
+          <option name="PATTERN" value="pageObject.utility.emails.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="pageObject.utility.emails.letters.ThankYouForPlacingYourOrderWithMmjTrain" />
+      <option name="MAIN_CLASS_NAME" value="pageObject.utility.emails.FetchingEmailHelper" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1196,14 +440,144 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="testGoogle" />
       <envs />
-      <method />
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pageObject.utility.emails.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="pageObject.utility.emails.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testGoogle" />
+      <envs />
+    </configuration>
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pageObject.utility.emails.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="pageObject.utility.emails.TestClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testGoogle" />
+      <envs />
+    </configuration>
+    <configuration name="UserHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pageObject.mmjtraine.businessobject.useresfacade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="pageObject.mmjtraine.businessobject.useresfacade.UserHelper" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testGoogle" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -1260,29 +634,6 @@
       </Profilers>
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
@@ -1316,27 +667,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -1407,56 +737,20 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/NGorodenchuk.ARTFULBITS/workplace/com.traine/src/test/java/resources/page-object-test.xml" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DateTime" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GoogleTestSuit" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.GoogleTestSuit.checkRecievingRecommendationDeclinedLetterAfterChangeingFromPenndingToDelcined" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ThankYouForPlacingYourOrderWithMmjTrain" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestClass" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FetchingEmailHelper" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UserHelper" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.DemoTestSuit" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/NGorodenchuk.ARTFULBITS/workplace/com.traine/src/test/java/resources/page-object-test.xml" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ThankYouForPlacingYourOrderWithMmjTrain" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.GoogleTestSuit.checkRecievingRecommendationDeclinedLetterAfterChangeingFromPenndingToDelcined" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GoogleTestSuit" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DateTime" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.DemoTestSuit" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UserHelper" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FetchingEmailHelper" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestClass" />
       </list>
     </recent_temporary>
   </component>
@@ -1483,20 +777,20 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_NGorodenchuk_ARTFULBITS_workplace_com_traine_src_test_java_resources_page-object-test_xml - 2017.10.12 at 15h 11m 05s.xml">
+    <history-entry file="C__Users_NGorodenchuk_ARTFULBITS_workplace_com_traine_src_test_java_resources_page-object-test_xml - 2017.11.21 at 15h 09m 52s.xml">
       <configuration name="C:/Users/NGorodenchuk.ARTFULBITS/workplace/com.traine/src/test/java/resources/page-object-test.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_NGorodenchuk_ARTFULBITS_workplace_com_traine_src_test_java_resources_page-object-test_xml - 2017.10.12 at 15h 14m 00s.xml">
+    <history-entry file="C__Users_NGorodenchuk_ARTFULBITS_workplace_com_traine_src_test_java_resources_page-object-test_xml - 2017.11.21 at 15h 17m 11s.xml">
       <configuration name="C:/Users/NGorodenchuk.ARTFULBITS/workplace/com.traine/src/test/java/resources/page-object-test.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_NGorodenchuk_ARTFULBITS_workplace_com_traine_src_test_java_resources_page-object-test_xml - 2017.10.12 at 15h 16m 41s.xml">
+    <history-entry file="C__Users_NGorodenchuk_ARTFULBITS_workplace_com_traine_src_test_java_resources_page-object-test_xml - 2017.11.21 at 16h 36m 16s.xml">
       <configuration name="C:/Users/NGorodenchuk.ARTFULBITS/workplace/com.traine/src/test/java/resources/page-object-test.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_NGorodenchuk_ARTFULBITS_workplace_com_traine_src_test_java_resources_page-object-test_xml - 2017.10.12 at 15h 17m 37s.xml">
+    <history-entry file="C__Users_NGorodenchuk_ARTFULBITS_workplace_com_traine_src_test_java_resources_page-object-test_xml - 2017.11.21 at 16h 37m 20s.xml">
       <configuration name="C:/Users/NGorodenchuk.ARTFULBITS/workplace/com.traine/src/test/java/resources/page-object-test.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_NGorodenchuk_ARTFULBITS_workplace_com_traine_src_test_java_resources_page-object-test_xml - 2017.10.12 at 15h 19m 40s.xml">
-      <configuration name="C:/Users/NGorodenchuk.ARTFULBITS/workplace/com.traine/src/test/java/resources/page-object-test.xml" configurationId="TestNG" />
+    <history-entry file="DemoTestSuit - 2017.11.23 at 18h 28m 47s.xml">
+      <configuration name="DemoTestSuit" configurationId="TestNG" />
     </history-entry>
     <history-entry file="GoogleTestSuit_checkRecievingRecommendationDeclinedLetterAfterChangeingFromPenndingToDelcined - 2017.10.06 at 18h 39m 39s.xml">
       <configuration name="GoogleTestSuit.checkRecievingRecommendationDeclinedLetterAfterChangeingFromPenndingToDelcined" configurationId="TestNG" />
@@ -1531,34 +825,34 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4935275" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502708" sideWeight="0.53198296" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15351813" sideWeight="0.47082496" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.53198296" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15245202" sideWeight="0.47082496" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.49676377" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42686892" sideWeight="0.46801707" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42608696" sideWeight="0.46801707" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.48786408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31556502" sideWeight="0.49223948" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.4935275" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14872068" sideWeight="0.49223948" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.49367088" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28744328" sideWeight="0.5077605" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.531961" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53152174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502708" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15991472" sideWeight="0.52917504" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.4935275" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1566,8 +860,8 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502708" sideWeight="0.53198296" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10127932" sideWeight="0.47082496" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.53198296" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15245202" sideWeight="0.47082496" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1576,19 +870,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.49367088" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.531961" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53152174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4935275" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502708" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.49676377" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50812566" sideWeight="0.46801707" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42608696" sideWeight="0.46801707" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15991472" sideWeight="0.52917504" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.48786408" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27985075" sideWeight="0.49223948" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.4935275" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14872068" sideWeight="0.49223948" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.4935275" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28744328" sideWeight="0.5077605" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -1612,7 +906,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="87" />
+      <option name="time" value="95" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1621,134 +915,8 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/allure-results/fdf63131-7d11-415b-b11c-1267d8e225a3-attachment.png" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/fe31f275-e20f-4b38-9d9c-ec34a7bdaa37-attachment.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/ClientsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/DashBoardPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/EditClientPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/EditOrderPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="127" column="41" lean-forward="true" selection-start-line="127" selection-start-column="41" selection-end-line="127" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/OrdersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-808">
-          <caret line="136" column="26" lean-forward="true" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/CheckOutPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3205">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/CreateNewPasswordPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/HistoryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/MenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6384">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/Messages1Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/Messages3Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/Messages5Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/mmjtraine/ProfilePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4777">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/CancleOrderPopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/ConfirmTheOperationPopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/EnterVerificationCodePopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/PhoneNumberVerifyPopUp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/location/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pop_ups/ResetYourPasswordPopUp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
@@ -1756,92 +924,334 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep1_1of3PopUp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/IFetchingEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep1_2of3PopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        <state relative-caret-position="34">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep2_1of3PopUp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/FetchingEmailHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-709">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="18" column="87" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep2_2of3PopUp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/TestClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/YourMmjTrainOrderHasNowBeenShipped.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/ThankYouForPlacingYourOrderWithMmjTrain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep3_1of3PopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/RegisterationStep3_2of3PopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/ResetYourPasswordPopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/SignInPopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/SignUpPopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="62" column="75" lean-forward="false" selection-start-line="62" selection-start-column="75" selection-end-line="62" selection-end-column="75" />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/testPages/GooglePage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/MmjTrainOrderHasBeenProcessed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
+        <state relative-caret-position="170">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/TheStatusOfYourRecommendationIsDeclined.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/TheStatusOfYourIdIsDeclined.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/MmmjTrainPasswordReset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/YourOrderHasBeenCanceled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/FetchingEmailHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="1957" column="18" lean-forward="false" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/IFetchingEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/FetchingEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3205">
-          <caret line="93" column="82" lean-forward="true" selection-start-line="93" selection-start-column="82" selection-end-line="93" selection-end-column="82" />
+        <state relative-caret-position="221">
+          <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/BrowserStackIntegration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/WelcomeToMmjTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/DB/DbUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/DB/DbTables/Menu_Products.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/DB/DbTables/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/DB/DbTables/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/DB/ConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/DB/DbTables/Menu_Product_Prices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/DB/DbTables/Promocodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/DB/DataBaseExecute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/RandomNumberGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/DateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/testdata/shipper_login.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/testdata/admin_login.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/testdata/manager_login.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/businessobject/useresfacade/IUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/PropertyLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/businessobject/useresfacade/Shipper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="85" lean-forward="false" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/businessobject/useresfacade/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/businessobject/useresfacade/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="85" lean-forward="true" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#2450#2451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/businessobject/useresfacade/UserHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="42" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/page-object-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="65" lean-forward="true" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/strategytest/DemoTestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1850,138 +1260,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/page-object-test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/CsvDataProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/WriterToFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/RandomNumberGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/TestExecutionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/TestStepReporter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/pop_ups/ConfirmYourOrderPopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/adminpanel/OrdersPageTestSuit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pop_ups/SignUpPopUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67813">
-          <caret line="4005" column="0" lean-forward="false" selection-start-line="4005" selection-start-column="0" selection-end-line="4005" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/GeolocationForNotLoginUserTestSuit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pop_ups/SignInPopUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9129">
-          <caret line="555" column="0" lean-forward="false" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/MakingOrderTestSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ProductAndCartTestSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/desktoptest/ParticularSignUpTestSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14943">
-          <caret line="895" column="5" lean-forward="false" selection-start-line="895" selection-start-column="5" selection-end-line="895" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/adminpanel/ClientPageTestSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/webDriver/WebDriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="72" column="58" lean-forward="true" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/2.53.1/selenium-firefox-driver-2.53.1-sources.jar!/org/openqa/selenium/firefox/internal/ProfilesIni.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="109" column="24" lean-forward="false" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/emailtest/EmailsTestSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1206" column="29" lean-forward="false" selection-start-line="1206" selection-start-column="29" selection-end-line="1206" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="298">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/testcase/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="110" selection-end-column="9" />
+        <state relative-caret-position="-386">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/pages/adminpanel/commonWidgets/NavigationPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/facadetest/DemoTestSuit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="408">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/location/GetLocationExample.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/buildertest/DemoTestSuit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="64" />
+        <state relative-caret-position="561">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>

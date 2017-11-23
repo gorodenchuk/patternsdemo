@@ -1,8 +1,6 @@
 package pageobject.testcase;
 
 
-import java.util.concurrent.TimeUnit;
-
 import com.browserstack.local.Local;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -11,17 +9,23 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
-import org.testng.annotations.*;
-import pageObject.pages.Page;
-import pageObject.pages.adminpanel.pages.LoginPage;
-import pageObject.pages.mmjtraine.HomePage;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
+import pageObject.mmjtraine.pages.HomePage;
+import pageObject.mmjtraine.pages.Page;
 import pageObject.utility.TestExecutionListener;
 import pageObject.webDriver.WebDriverFactory;
 import pageObject.webDriver.WebWindow;
 
+import java.util.concurrent.TimeUnit;
+
+
+
 
 /*
- * Base class for all the test classes
+ * Base class for all the Test classes
  */
 @Listeners({ TestExecutionListener.class })
 public class TestBase {
@@ -30,7 +34,6 @@ public class TestBase {
 	protected Local l;
 	static EventFiringWebDriver eventDriver;
 	protected HomePage homePage;
-	protected LoginPage loginPage;
 	public String handleHost;
 	private static final Logger LOG = LogManager.getLogger(TestBase.class);
 
@@ -46,7 +49,6 @@ public class TestBase {
 		navigateTo(Page.WEB_URL);
 //		webDriver.manage().deleteAllCookies();
 		homePage = PageFactory.initElements(webDriver, HomePage.class);
-		loginPage = PageFactory.initElements(webDriver, LoginPage.class);
 		handleHost = webDriver.getWindowHandle();
 	}
 

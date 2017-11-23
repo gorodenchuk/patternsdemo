@@ -1,0 +1,60 @@
+2017-11-23 19:07:43,109 INFO  EventHandler:26 - WebDriver navigated to 'https://devtests.mmjtrain.com/'
+2017-11-23 19:07:43,295 DEBUG EventHandler:63 - Element should be found byBy.xpath: //button[@class='btn-main btn-border btn-signin']
+2017-11-23 19:07:43,321 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //button[@class='btn-main btn-border btn-signin']
+2017-11-23 19:07:43,405 INFO  EventHandler:77 - Clicked successfull
+2017-11-23 19:07:43,413 DEBUG EventHandler:63 - Element should be found byBy.xpath: //form[@id='signinform']//input[@name='email']
+2017-11-23 19:07:43,439 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //form[@id='signinform']//input[@name='email']
+2017-11-23 19:07:43,718 DEBUG EventHandler:63 - Element should be found byBy.xpath: //form[@id='signinform']//input[@name='password']
+2017-11-23 19:07:43,737 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //form[@id='signinform']//input[@name='password']
+2017-11-23 19:07:43,816 DEBUG EventHandler:63 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:43,860 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:43,911 DEBUG EventHandler:63 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:43,939 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:43,977 INFO  Page:88 - Element 'SignIn' button found
+2017-11-23 19:07:43,977 DEBUG EventHandler:63 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:43,988 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:44,095 INFO  EventHandler:77 - Clicked successfull
+2017-11-23 19:07:44,096 DEBUG EventHandler:63 - Element should be found byBy.xpath: //form[@id='signinform']/p[.='Unknown user.']
+2017-11-23 19:07:44,284 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //form[@id='signinform']/p[.='Unknown user.']
+2017-11-23 19:07:44,321 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-11-23 19:07:44,327 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-11-23 19:07:50,333 INFO  EventHandler:26 - WebDriver navigated to 'https://devtests.mmjtrain.com/'
+2017-11-23 19:07:50,337 DEBUG EventHandler:63 - Element should be found byBy.xpath: //button[@class='btn-main btn-border btn-signin']
+2017-11-23 19:07:50,365 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //button[@class='btn-main btn-border btn-signin']
+2017-11-23 19:07:50,437 INFO  EventHandler:77 - Clicked successfull
+2017-11-23 19:07:50,438 DEBUG EventHandler:63 - Element should be found byBy.xpath: //form[@id='signinform']//input[@name='email']
+2017-11-23 19:07:50,463 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //form[@id='signinform']//input[@name='email']
+2017-11-23 19:07:50,718 DEBUG EventHandler:63 - Element should be found byBy.xpath: //form[@id='signinform']//input[@name='password']
+2017-11-23 19:07:50,739 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //form[@id='signinform']//input[@name='password']
+2017-11-23 19:07:50,798 DEBUG EventHandler:63 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:50,817 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:50,836 DEBUG EventHandler:63 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:50,846 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:50,859 INFO  Page:88 - Element 'SignIn' button found
+2017-11-23 19:07:50,860 DEBUG EventHandler:63 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:50,867 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:50,966 INFO  EventHandler:77 - Clicked successfull
+2017-11-23 19:07:50,966 DEBUG EventHandler:63 - Element should be found byBy.xpath: //form[@id='signinform']/p[.='Unknown user.']
+2017-11-23 19:07:51,151 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //form[@id='signinform']/p[.='Unknown user.']
+2017-11-23 19:07:51,196 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-11-23 19:07:51,197 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-11-23 19:07:57,165 INFO  EventHandler:26 - WebDriver navigated to 'https://devtests.mmjtrain.com/'
+2017-11-23 19:07:57,170 DEBUG EventHandler:63 - Element should be found byBy.xpath: //button[@class='btn-main btn-border btn-signin']
+2017-11-23 19:07:57,193 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //button[@class='btn-main btn-border btn-signin']
+2017-11-23 19:07:57,269 INFO  EventHandler:77 - Clicked successfull
+2017-11-23 19:07:57,271 DEBUG EventHandler:63 - Element should be found byBy.xpath: //form[@id='signinform']//input[@name='email']
+2017-11-23 19:07:57,296 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //form[@id='signinform']//input[@name='email']
+2017-11-23 19:07:57,549 DEBUG EventHandler:63 - Element should be found byBy.xpath: //form[@id='signinform']//input[@name='password']
+2017-11-23 19:07:57,569 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //form[@id='signinform']//input[@name='password']
+2017-11-23 19:07:57,632 DEBUG EventHandler:63 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:57,651 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:57,675 DEBUG EventHandler:63 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:57,684 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:57,699 INFO  Page:88 - Element 'SignIn' button found
+2017-11-23 19:07:57,699 DEBUG EventHandler:63 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:57,710 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-11-23 19:07:57,812 INFO  EventHandler:77 - Clicked successfull
+2017-11-23 19:07:57,812 DEBUG EventHandler:63 - Element should be found byBy.xpath: //form[@id='signinform']/p[.='Unknown user.']
+2017-11-23 19:07:58,000 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //form[@id='signinform']/p[.='Unknown user.']
+2017-11-23 19:07:58,022 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-11-23 19:07:58,023 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
