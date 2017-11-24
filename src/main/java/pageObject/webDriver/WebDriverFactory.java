@@ -25,16 +25,9 @@ public class WebDriverFactory {
 	private static final String CHROME = "chrome";
 	private static final String FIREFOX = "firefox";
 	private static final String INTERNETEXPLORER = "ie";
-	private static final String SAFARI = "safari";
-	private static final String BS_CHROME = "chrome_56";
 	private static WebDriver webDriver;
 	private static EventFiringWebDriver eventDriver;
 	private static DesiredCapabilities dc;
-	public static final String USERNAME = "alex3545";
-	public static final String AUTOMATE_KEY = "N9itYTzAx9Q2XqDWbUox";
-	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
-//	private static  String driver_Name = "MMJTrainQA";
-//	private static  String driver_path = "C:\\DBUsersTable\\NGorodenchuk.ARTFULBITS\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\igxrvgxv.MMJTrainQA";
 
 	private WebDriverFactory() {
 
@@ -57,11 +50,6 @@ public class WebDriverFactory {
 				ChromeOptions options = new ChromeOptions();
 				// set some options
 				options.addArguments("Test-type");
-
-//				Accept auto geolocationtest in pop-up for chrome
-//				options.setExperimentalOption("prefs", new JSONObject().
-//						put("profile.default_content_settings.geolocationtest", 1));
-
 				dc = DesiredCapabilities.internetExplorer();
 				dc.setCapability(ChromeOptions.CAPABILITY, options);
 
@@ -82,32 +70,6 @@ public class WebDriverFactory {
 				dc.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, false);
 
 				webDriver = new InternetExplorerDriver(dc);
-
-			} else if (SAFARI.equals(browser)) {
-
-				DesiredCapabilities dc = new DesiredCapabilities();
-				dc.setCapability("browser", "Safari");
-				dc.setCapability("browser_version", "10.1");
-				dc.setCapability("os", "OS X");
-				dc.setCapability("os_version", "Sierra");
-				dc.setCapability("resolution", "1920x1080");
-				dc.setCapability("browserstack.safari.enablePopups", "true");
-				dc.setCapability("project", "com.mmjtraine");
-
-				webDriver = new RemoteWebDriver(new URL(URL), dc);
-
-			} else if (BS_CHROME.equals(browser)) {
-
-				DesiredCapabilities dc = new DesiredCapabilities();
-				dc.setCapability("browser", "Chrome");
-				dc.setCapability("browser_version", "56.0");
-				dc.setCapability("os", "Windows");
-				dc.setCapability("os_version", "10");
-				dc.setCapability("resolution", "1920x1080");
-				dc.setCapability("browserstack.safari.enablePopups", "true");
-				dc.setCapability("project", "com.mmjtraine");
-
-				webDriver = new RemoteWebDriver(new URL(URL), dc);
 
 			} else
 				throw new Exception(
