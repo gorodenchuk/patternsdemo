@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1511792426603,
+    "stop" : 1511792429785,
+    "duration" : 3182
+  },
+  "testSuites" : [ {
+    "uid" : "9ab6771f74cad5e7",
+    "name" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]",
+    "title" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]",
+    "time" : {
+      "start" : 1511792426603,
+      "stop" : 1511792429785,
+      "duration" : 3182
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "cf24576f7d3ac82c",
+      "name" : "checkRedirectionToMenuPageAfterAddingLocationManuallyTEST",
+      "title" : "Check redirection to menu page after adding location manually TEST",
+      "time" : {
+        "start" : 1511792426603,
+        "stop" : 1511792429785,
+        "duration" : 3182
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "cf24576f7d3ac82c",
+    "name" : "checkRedirectionToMenuPageAfterAddingLocationManuallyTEST",
+    "title" : "Check redirection to menu page after adding location manually TEST",
+    "time" : {
+      "start" : 1511792426603,
+      "stop" : 1511792429785,
+      "duration" : 3182
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

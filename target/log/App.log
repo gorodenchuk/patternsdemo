@@ -1,0 +1,26 @@
+2017-11-27 16:20:26,540 INFO  EventHandler:26 - WebDriver navigated to 'https://devtests.mmjtrain.com/'
+2017-11-27 16:20:26,691 DEBUG EventHandler:63 - Element should be found byBy.xpath: //input[@id='address-geo']
+2017-11-27 16:20:26,715 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //input[@id='address-geo']
+2017-11-27 16:20:26,843 DEBUG EventHandler:63 - Element should be found byBy.xpath: //span[@class='pac-item-query']//span[contains(text(),'San Francisco')]
+2017-11-27 16:20:27,030 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //span[@class='pac-item-query']//span[contains(text(),'San Francisco')]
+2017-11-27 16:20:27,126 INFO  EventHandler:77 - Clicked successfull
+2017-11-27 16:20:27,142 DEBUG EventHandler:63 - Element should be found byBy.xpath: //div[@class='btn-main btn-border user-location']/span[contains(text(),'Your Location')]
+2017-11-27 16:20:27,451 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //div[@class='btn-main btn-border user-location']/span[contains(text(),'Your Location')]
+2017-11-27 16:20:27,480 INFO  Page:125 - Page is found
+2017-11-27 16:20:27,486 DEBUG EventHandler:63 - Element should be found byBy.xpath: //figure[@data-strain='hybrid' and @data-product='flowers']//h2[.='Girl Scout Cookies']/..//span[.='1/2 oz']
+2017-11-27 16:20:28,936 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //figure[@data-strain='hybrid' and @data-product='flowers']//h2[.='Girl Scout Cookies']/..//span[.='1/2 oz']
+2017-11-27 16:20:29,091 INFO  EventHandler:77 - Clicked successfull
+2017-11-27 16:20:29,093 DEBUG EventHandler:63 - Element should be found byBy.xpath: //figure[@data-strain='hybrid' and @data-product='flowers']//h2[.='Girl Scout Cookies']/..//span[.='1/2 oz']/ancestor::div[@class='product-order']//button[.='Add to Cart']
+2017-11-27 16:20:29,137 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //figure[@data-strain='hybrid' and @data-product='flowers']//h2[.='Girl Scout Cookies']/..//span[.='1/2 oz']/ancestor::div[@class='product-order']//button[.='Add to Cart']
+2017-11-27 16:20:29,292 INFO  EventHandler:77 - Clicked successfull
+2017-11-27 16:20:29,295 DEBUG EventHandler:63 - Element should be found byBy.xpath: //figure[@data-strain='hybrid' and @data-product='prerolls']//h2[.='testproduct1342']/..//div[@class='pack-count three-packs text-color-2']/div[@class='count-part count-plus']
+2017-11-27 16:20:29,338 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //figure[@data-strain='hybrid' and @data-product='prerolls']//h2[.='testproduct1342']/..//div[@class='pack-count three-packs text-color-2']/div[@class='count-part count-plus']
+2017-11-27 16:20:29,476 INFO  EventHandler:77 - Clicked successfull
+2017-11-27 16:20:29,558 INFO  EventHandler:77 - Clicked successfull
+2017-11-27 16:20:29,560 DEBUG EventHandler:63 - Element should be found byBy.xpath: //figure[@data-strain='hybrid' and @data-product='prerolls']//h2[.='testproduct1342']/..//div[@class='pack-count three-packs text-color-2']/div[@class='count-part count-plus']/ancestor::div[@class='product-details']//button[@class='btn-main btn-standard btn-add']
+2017-11-27 16:20:29,610 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //figure[@data-strain='hybrid' and @data-product='prerolls']//h2[.='testproduct1342']/..//div[@class='pack-count three-packs text-color-2']/div[@class='count-part count-plus']/ancestor::div[@class='product-details']//button[@class='btn-main btn-standard btn-add']
+2017-11-27 16:20:29,714 INFO  EventHandler:77 - Clicked successfull
+2017-11-27 16:20:29,714 DEBUG EventHandler:63 - Element should be found byBy.xpath: //button[@class='btn-main btn-standard btn-cart cart-full nav-link']
+2017-11-27 16:20:29,744 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //button[@class='btn-main btn-standard btn-cart cart-full nav-link']
+2017-11-27 16:20:29,782 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-11-27 16:20:29,787 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---

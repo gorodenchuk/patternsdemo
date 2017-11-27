@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MMJTest]" parallel="tests">
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="config" value="single.conf.json"/>
+  <listeners>
+    <listener class-name="pageObject.utility.TestExecutionListener"/>
+  </listeners>
+  <test name="ChromeTesting">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="config" value="single.conf.json"/>
+    <classes>
+      <class name="pageobject.buildertest.DemoTestSuit"/>
+    </classes>
+  </test> <!-- ChromeTesting -->
+</suite> <!-- Failed suite [MMJTest] -->

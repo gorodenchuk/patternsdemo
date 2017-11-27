@@ -1,0 +1,4 @@
+pageobject\facadetest\DemoTestSuit.class
+pageobject\testcase\TestBase.class
+pageobject\strategytest\DemoTestSuit.class
+pageobject\buildertest\DemoTestSuit.class

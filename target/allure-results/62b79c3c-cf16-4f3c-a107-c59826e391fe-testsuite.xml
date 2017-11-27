@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1511792420691" stop="1511792431062" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]</name>
+    <title>MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]</title>
+    <test-cases>
+        <test-case start="1511792426603" stop="1511792429785" status="passed">
+            <name>checkRedirectionToMenuPageAfterAddingLocationManuallyTEST</name>
+            <steps>
+                <step start="1511792426691" stop="1511792427133" status="passed">
+                    <name>giveGeolocation[pageObject.mmjtraine.businessobject.geolocationstrategy.ManualLocation@662f051a]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511792427486" stop="1511792429092" status="passed">
+                    <name>selectPortionProductItem[pageObject.mmjtraine.businessobject.productitembuilder.PortionProductItem@70eaa2e0]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511792429093" stop="1511792429293" status="passed">
+                    <name>addToCartPortionProductItem[pageObject.mmjtraine.businessobject.productitembuilder.PortionProductItem@70eaa2e0]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511792429295" stop="1511792429559" status="passed">
+                    <name>selectQuantityProductItem[pageObject.mmjtraine.businessobject.productitembuilder.QuantityProductItem@5df4738]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511792429560" stop="1511792429714" status="passed">
+                    <name>addToCartQuantityProductItem[pageObject.mmjtraine.businessobject.productitembuilder.QuantityProductItem@5df4738]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="EPUALVIW0912"/>
+                <label name="thread" value="9696@EPUALVIW0912.TestNG(15)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
