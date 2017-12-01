@@ -1,26 +1,122 @@
-2017-11-27 16:20:26,540 INFO  EventHandler:26 - WebDriver navigated to 'https://devtests.mmjtrain.com/'
-2017-11-27 16:20:26,691 DEBUG EventHandler:63 - Element should be found byBy.xpath: //input[@id='address-geo']
-2017-11-27 16:20:26,715 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //input[@id='address-geo']
-2017-11-27 16:20:26,843 DEBUG EventHandler:63 - Element should be found byBy.xpath: //span[@class='pac-item-query']//span[contains(text(),'San Francisco')]
-2017-11-27 16:20:27,030 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //span[@class='pac-item-query']//span[contains(text(),'San Francisco')]
-2017-11-27 16:20:27,126 INFO  EventHandler:77 - Clicked successfull
-2017-11-27 16:20:27,142 DEBUG EventHandler:63 - Element should be found byBy.xpath: //div[@class='btn-main btn-border user-location']/span[contains(text(),'Your Location')]
-2017-11-27 16:20:27,451 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //div[@class='btn-main btn-border user-location']/span[contains(text(),'Your Location')]
-2017-11-27 16:20:27,480 INFO  Page:125 - Page is found
-2017-11-27 16:20:27,486 DEBUG EventHandler:63 - Element should be found byBy.xpath: //figure[@data-strain='hybrid' and @data-product='flowers']//h2[.='Girl Scout Cookies']/..//span[.='1/2 oz']
-2017-11-27 16:20:28,936 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //figure[@data-strain='hybrid' and @data-product='flowers']//h2[.='Girl Scout Cookies']/..//span[.='1/2 oz']
-2017-11-27 16:20:29,091 INFO  EventHandler:77 - Clicked successfull
-2017-11-27 16:20:29,093 DEBUG EventHandler:63 - Element should be found byBy.xpath: //figure[@data-strain='hybrid' and @data-product='flowers']//h2[.='Girl Scout Cookies']/..//span[.='1/2 oz']/ancestor::div[@class='product-order']//button[.='Add to Cart']
-2017-11-27 16:20:29,137 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //figure[@data-strain='hybrid' and @data-product='flowers']//h2[.='Girl Scout Cookies']/..//span[.='1/2 oz']/ancestor::div[@class='product-order']//button[.='Add to Cart']
-2017-11-27 16:20:29,292 INFO  EventHandler:77 - Clicked successfull
-2017-11-27 16:20:29,295 DEBUG EventHandler:63 - Element should be found byBy.xpath: //figure[@data-strain='hybrid' and @data-product='prerolls']//h2[.='testproduct1342']/..//div[@class='pack-count three-packs text-color-2']/div[@class='count-part count-plus']
-2017-11-27 16:20:29,338 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //figure[@data-strain='hybrid' and @data-product='prerolls']//h2[.='testproduct1342']/..//div[@class='pack-count three-packs text-color-2']/div[@class='count-part count-plus']
-2017-11-27 16:20:29,476 INFO  EventHandler:77 - Clicked successfull
-2017-11-27 16:20:29,558 INFO  EventHandler:77 - Clicked successfull
-2017-11-27 16:20:29,560 DEBUG EventHandler:63 - Element should be found byBy.xpath: //figure[@data-strain='hybrid' and @data-product='prerolls']//h2[.='testproduct1342']/..//div[@class='pack-count three-packs text-color-2']/div[@class='count-part count-plus']/ancestor::div[@class='product-details']//button[@class='btn-main btn-standard btn-add']
-2017-11-27 16:20:29,610 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //figure[@data-strain='hybrid' and @data-product='prerolls']//h2[.='testproduct1342']/..//div[@class='pack-count three-packs text-color-2']/div[@class='count-part count-plus']/ancestor::div[@class='product-details']//button[@class='btn-main btn-standard btn-add']
-2017-11-27 16:20:29,714 INFO  EventHandler:77 - Clicked successfull
-2017-11-27 16:20:29,714 DEBUG EventHandler:63 - Element should be found byBy.xpath: //button[@class='btn-main btn-standard btn-cart cart-full nav-link']
-2017-11-27 16:20:29,744 DEBUG EventHandler:68 - WebDriver found elementBy.xpath: //button[@class='btn-main btn-standard btn-cart cart-full nav-link']
-2017-11-27 16:20:29,782 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
-2017-11-27 16:20:29,787 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-12-01 19:10:10,968 INFO  EventHandler:34 - WebDriver navigated to 'https://devtests.mmjtrain.com/'
+2017-12-01 19:10:11,118 DEBUG EventHandler:71 - Element should be found byBy.xpath: //input[@id='address-geo']
+2017-12-01 19:10:11,141 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //input[@id='address-geo']
+2017-12-01 19:10:11,280 DEBUG EventHandler:71 - Element should be found byBy.xpath: //span[@class='pac-item-query']//span[contains(text(),'San Francisco')]
+2017-12-01 19:10:11,521 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //span[@class='pac-item-query']//span[contains(text(),'San Francisco')]
+2017-12-01 19:10:11,605 INFO  EventHandler:94 - Clicked successfull
+2017-12-01 19:10:11,620 DEBUG EventHandler:71 - Element should be found byBy.xpath: //div[@class='btn-main btn-border user-location']/span[contains(text(),'Your Location')]
+2017-12-01 19:10:11,865 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //div[@class='btn-main btn-border user-location']/span[contains(text(),'Your Location')]
+2017-12-01 19:10:11,895 INFO  Page:126 - Page is found
+2017-12-01 19:10:11,900 DEBUG EventHandler:71 - Element should be found byBy.xpath: //figure[@data-strain='hybrid' and @data-product='flowers']//h2[.='Girl Scout Cookies']/..//span[.='1/2 oz']
+2017-12-01 19:10:12,061 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //figure[@data-strain='hybrid' and @data-product='flowers']//h2[.='Girl Scout Cookies']/..//span[.='1/2 oz']
+2017-12-01 19:10:12,134 INFO  EventHandler:94 - Clicked successfull
+2017-12-01 19:10:12,136 DEBUG EventHandler:71 - Element should be found byBy.xpath: //figure[@data-strain='hybrid' and @data-product='flowers']//h2[.='Girl Scout Cookies']/..//span[.='1/2 oz']/ancestor::div[@class='product-order']//button[.='Add to Cart']
+2017-12-01 19:10:12,160 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //figure[@data-strain='hybrid' and @data-product='flowers']//h2[.='Girl Scout Cookies']/..//span[.='1/2 oz']/ancestor::div[@class='product-order']//button[.='Add to Cart']
+2017-12-01 19:10:12,221 INFO  EventHandler:94 - Clicked successfull
+2017-12-01 19:10:12,224 DEBUG EventHandler:71 - Element should be found byBy.xpath: //figure[@data-strain='hybrid' and @data-product='prerolls']//h2[.='testproduct1342']/..//div[@class='pack-count three-packs text-color-2']/div[@class='count-part count-plus']
+2017-12-01 19:10:22,263 INFO  TestExecutionListener:56 - --- TEST FAILED!!!!! ---
+2017-12-01 19:10:25,888 INFO  TestExecutionListener:108 - Taking screenShot with file name: checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_25.png
+2017-12-01 19:10:25,893 DEBUG TestExecutionListener:124 - Writing out web browser screenshot on checkRedirectionToMenuPageAfterAddingLocationManuallyTEST Test failure
+2017-12-01 19:10:27,978 DEBUG TestExecutionListener:157 - Converting screenshot to byte array for report attachment
+2017-12-01 19:10:28,230 INFO  TestExecutionListener:161 - Successfully wrote screenshot to byte array output stream
+2017-12-01 19:10:28,231 INFO  TestExecutionListener:172 - Converted image screenshot to byte array. Byte array size is: 788229
+2017-12-01 19:10:28,346 INFO  TestExecutionListener:56 - --- TEST FAILED!!!!! ---
+2017-12-01 19:10:31,825 INFO  TestExecutionListener:108 - Taking screenShot with file name: checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_31.png
+2017-12-01 19:10:31,826 DEBUG TestExecutionListener:124 - Writing out web browser screenshot on checkRedirectionToMenuPageAfterAddingLocationManuallyTEST Test failure
+2017-12-01 19:10:34,064 DEBUG TestExecutionListener:157 - Converting screenshot to byte array for report attachment
+2017-12-01 19:10:34,296 INFO  TestExecutionListener:161 - Successfully wrote screenshot to byte array output stream
+2017-12-01 19:10:34,296 INFO  TestExecutionListener:172 - Converted image screenshot to byte array. Byte array size is: 788229
+2017-12-01 19:10:40,726 INFO  EventHandler:34 - WebDriver navigated to 'https://devtests.mmjtrain.com/'
+2017-12-01 19:10:40,734 DEBUG EventHandler:71 - Element should be found byBy.xpath: //button[@class='btn-main btn-geo']
+2017-12-01 19:10:40,763 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //button[@class='btn-main btn-geo']
+2017-12-01 19:10:40,828 INFO  EventHandler:94 - Clicked successfull
+2017-12-01 19:10:40,829 DEBUG EventHandler:71 - Element should be found byBy.xpath: //div[@class='btn-main btn-border user-location']/span[.='Your Location']
+2017-12-01 19:10:42,590 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //div[@class='btn-main btn-border user-location']/span[.='Your Location']
+2017-12-01 19:10:42,622 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-12-01 19:10:42,626 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-12-01 19:10:48,830 INFO  EventHandler:34 - WebDriver navigated to 'https://devtests.mmjtrain.com/'
+2017-12-01 19:10:48,843 DEBUG EventHandler:71 - Element should be found byBy.xpath: //input[@id='address-geo']
+2017-12-01 19:10:48,885 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //input[@id='address-geo']
+2017-12-01 19:10:48,987 DEBUG EventHandler:71 - Element should be found byBy.xpath: //span[@class='pac-item-query']//span[contains(text(),'San Francisco')]
+2017-12-01 19:10:49,182 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //span[@class='pac-item-query']//span[contains(text(),'San Francisco')]
+2017-12-01 19:10:49,281 INFO  EventHandler:94 - Clicked successfull
+2017-12-01 19:10:49,281 DEBUG EventHandler:71 - Element should be found byBy.xpath: //div[@class='btn-main btn-border user-location']/span[.='Your Location']
+2017-12-01 19:10:49,570 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //div[@class='btn-main btn-border user-location']/span[.='Your Location']
+2017-12-01 19:10:49,599 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-12-01 19:10:49,600 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-12-01 19:10:56,249 INFO  EventHandler:34 - WebDriver navigated to 'https://devtests.mmjtrain.com/'
+2017-12-01 19:10:56,265 DEBUG EventHandler:71 - Element should be found byBy.xpath: //button[@class='btn-main btn-border btn-signin']
+2017-12-01 19:10:56,303 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //button[@class='btn-main btn-border btn-signin']
+2017-12-01 19:11:01,388 INFO  EventHandler:94 - Clicked successfull
+2017-12-01 19:11:01,390 DEBUG EventHandler:71 - Element should be found byBy.xpath: //form[@id='signinform']//input[@name='email']
+2017-12-01 19:11:01,415 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //form[@id='signinform']//input[@name='email']
+2017-12-01 19:11:01,686 DEBUG EventHandler:71 - Element should be found byBy.xpath: //form[@id='signinform']//input[@name='password']
+2017-12-01 19:11:01,704 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //form[@id='signinform']//input[@name='password']
+2017-12-01 19:11:01,757 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:01,776 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:02,294 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:02,322 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:02,835 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:02,844 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:03,352 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:03,366 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:03,878 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:03,904 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:04,429 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:04,445 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:04,961 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:04,990 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:05,513 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:05,523 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:06,032 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:06,043 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:06,052 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:06,061 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:06,076 INFO  Page:89 - Element 'SignIn' button found
+2017-12-01 19:11:06,077 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:06,086 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:06,171 INFO  EventHandler:94 - Clicked successfull
+2017-12-01 19:11:06,172 DEBUG EventHandler:71 - Element should be found byBy.xpath: //form[@id='signinform']/p[.='Unknown user.']
+2017-12-01 19:11:06,262 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //form[@id='signinform']/p[.='Unknown user.']
+2017-12-01 19:11:06,297 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-12-01 19:11:06,299 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-12-01 19:11:22,032 INFO  EventHandler:34 - WebDriver navigated to 'https://devtests.mmjtrain.com/'
+2017-12-01 19:11:22,038 DEBUG EventHandler:71 - Element should be found byBy.xpath: //button[@class='btn-main btn-border btn-signin']
+2017-12-01 19:11:22,069 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //button[@class='btn-main btn-border btn-signin']
+2017-12-01 19:11:22,124 INFO  EventHandler:94 - Clicked successfull
+2017-12-01 19:11:22,125 DEBUG EventHandler:71 - Element should be found byBy.xpath: //form[@id='signinform']//input[@name='email']
+2017-12-01 19:11:22,144 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //form[@id='signinform']//input[@name='email']
+2017-12-01 19:11:22,409 DEBUG EventHandler:71 - Element should be found byBy.xpath: //form[@id='signinform']//input[@name='password']
+2017-12-01 19:11:22,428 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //form[@id='signinform']//input[@name='password']
+2017-12-01 19:11:22,479 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:22,499 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:22,517 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:22,524 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:22,537 INFO  Page:89 - Element 'SignIn' button found
+2017-12-01 19:11:22,537 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:22,544 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:22,635 INFO  EventHandler:94 - Clicked successfull
+2017-12-01 19:11:22,636 DEBUG EventHandler:71 - Element should be found byBy.xpath: //form[@id='signinform']/p[.='Unknown user.']
+2017-12-01 19:11:22,766 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //form[@id='signinform']/p[.='Unknown user.']
+2017-12-01 19:11:22,785 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-12-01 19:11:22,786 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-12-01 19:11:28,505 INFO  EventHandler:34 - WebDriver navigated to 'https://devtests.mmjtrain.com/'
+2017-12-01 19:11:28,521 DEBUG EventHandler:71 - Element should be found byBy.xpath: //button[@class='btn-main btn-border btn-signin']
+2017-12-01 19:11:28,551 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //button[@class='btn-main btn-border btn-signin']
+2017-12-01 19:11:28,609 INFO  EventHandler:94 - Clicked successfull
+2017-12-01 19:11:28,610 DEBUG EventHandler:71 - Element should be found byBy.xpath: //form[@id='signinform']//input[@name='email']
+2017-12-01 19:11:28,635 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //form[@id='signinform']//input[@name='email']
+2017-12-01 19:11:28,862 DEBUG EventHandler:71 - Element should be found byBy.xpath: //form[@id='signinform']//input[@name='password']
+2017-12-01 19:11:28,881 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //form[@id='signinform']//input[@name='password']
+2017-12-01 19:11:28,932 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:28,951 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:28,972 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:28,982 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:28,994 INFO  Page:89 - Element 'SignIn' button found
+2017-12-01 19:11:28,995 DEBUG EventHandler:71 - Element should be found byBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:29,004 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: .//*[@id='signinform']/button
+2017-12-01 19:11:29,102 INFO  EventHandler:94 - Clicked successfull
+2017-12-01 19:11:29,103 DEBUG EventHandler:71 - Element should be found byBy.xpath: //form[@id='signinform']/p[.='Unknown user.']
+2017-12-01 19:11:29,301 DEBUG EventHandler:85 - WebDriver found elementBy.xpath: //form[@id='signinform']/p[.='Unknown user.']
+2017-12-01 19:11:29,344 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---
+2017-12-01 19:11:29,346 INFO  TestExecutionListener:52 - --- TEST PASS!!!!! ---

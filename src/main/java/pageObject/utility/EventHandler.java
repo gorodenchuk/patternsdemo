@@ -8,6 +8,14 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
+import pageObject.mmjtraine.pages.HomePage;
+import pageObject.mmjtraine.pages.Page;
+
+import java.lang.reflect.Field;
+import java.lang.reflect.Modifier;
+import java.lang.reflect.Type;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by gorod on 28.09.2016.
@@ -61,6 +69,15 @@ public class EventHandler implements WebDriverEventListener {
     @Override
     public void beforeFindBy(By by, WebElement element, WebDriver driver) {
         LOG.debug("Element should be found by" + by);
+        System.out.println("From Listener: " + Page.currentClass);
+
+        try {
+            EventHandler.getConstantName(by, Page.currentClass);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+
+
     }
 
     @Override
@@ -108,9 +125,9 @@ public class EventHandler implements WebDriverEventListener {
 
     /**
      * Gets the element descriptor xpath.
+     * <p>
+     * //     * @param driver the driver
      *
-     //     * @param driver the driver
-     * @param element the element
      * @return the element descriptor xpath
      */
 //    public String getElementDescriptorXPATH(WebDriver driver, WebElement element) {
@@ -127,8 +144,18 @@ public class EventHandler implements WebDriverEventListener {
 //                                + "{a++}}};return gPt(arguments[0]).toLowerCase();",
 //                        element);
 //    }
+    public static void getConstantName(By by, Class<?> currentClass) throws IllegalAccessException {
+        for (Field field : currentClass.getDeclaredFields()) {
+            if (field.getType().toString().equals("WebElement")) {
+                WebElement val = (WebElement) field.get(currentClass);
 
-
+                if (val == by){
+                    System.out.println("NAME OF WEBELEMENT: " + field.getName());
+                }
+            }
+        }
+    }
+}
     /**
      * Gets the element descriptor name.
      *
@@ -139,4 +166,4 @@ public class EventHandler implements WebDriverEventListener {
 //    public String getElementDescriptorName(WebDriver driver, WebElement element) {
 //        return element.getTagName() + "<p>" + element.getText();
 //    }
-}
+//}

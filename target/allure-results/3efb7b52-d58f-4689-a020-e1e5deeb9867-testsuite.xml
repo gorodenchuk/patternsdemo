@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1512145563986" stop="1512145592366" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]</name>
+    <title>MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]</title>
+    <test-cases>
+        <test-case start="1512145570615" stop="0" status="passed">
+            <name>checkRedirectionToMenuPageAfterAddingLocationAutomatically</name>
+            <labels>
+                <label name="host" value="EPUALVIW0912"/>
+                <label name="thread" value="14832@EPUALVIW0912.TestNG(15)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

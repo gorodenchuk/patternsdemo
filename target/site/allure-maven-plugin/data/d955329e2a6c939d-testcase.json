@@ -1,0 +1,68 @@
+{
+  "uid" : "d955329e2a6c939d",
+  "name" : "checkRedirectionToMenuPageAfterAddingLocationAutomatically",
+  "title" : "Check redirection to menu page after adding location automatically",
+  "time" : {
+    "start" : 1512148240731,
+    "stop" : 1512148242622,
+    "duration" : 1891
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "409f4bd67daf37bb",
+    "name" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]",
+    "title" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]"
+  },
+  "steps" : [ {
+    "name" : "giveGeolocation[pageObject.mmjtraine.businessobject.geolocationstrategy.AutoLocation@346658b4]",
+    "title" : "Give geolocation [pageObject.mmjtraine.businessobject.geolocationstrategy.AutoLocation@346658b4]",
+    "time" : {
+      "start" : 1512148240734,
+      "stop" : 1512148240829,
+      "duration" : 95
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Browser screenshot after Test failed",
+    "source" : "d9d64f1b-67ed-4dae-9cba-8bb17125e757-attachment.png",
+    "type" : "image/png",
+    "size" : 788229,
+    "uid" : "cce061a440b324b2"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "360@EPUALVIW0912.TestNG(15)"
+  }, {
+    "name" : "host",
+    "value" : "EPUALVIW0912"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]"
+  }, {
+    "name" : "suite-name",
+    "value" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]"
+  } ],
+  "parameters" : [ ]
+}

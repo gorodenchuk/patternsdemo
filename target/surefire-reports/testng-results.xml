@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="6" passed="5">
   <reporter-output>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspFailed<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b><a href="file:///C:\Users\Nazar_Gorodenchuk\Desktop\patternsdemo-master/target/screenshots/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_25.png" target='_blank' ><p><br/><img src="file:///C:\Users\Nazar_Gorodenchuk\Desktop\patternsdemo-master/target/screenshots/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_25.png" width="600" height="400" alt=""/><br/></p></a></b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspFailed<p>]]>
+    </line>
+    <line>
+      <![CDATA[<b><a href="file:///C:\Users\Nazar_Gorodenchuk\Desktop\patternsdemo-master/target/screenshots/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_31.png" target='_blank' ><p><br/><img src="file:///C:\Users\Nazar_Gorodenchuk\Desktop\patternsdemo-master/target/screenshots/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_31.png" width="600" height="400" alt=""/><br/></p></a></b><p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+    </line>
     <line>
       <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
     </line>
@@ -8,12 +44,12 @@
       <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
     </line>
   </reporter-output>
-  <suite name="MMJTest" duration-ms="10357" started-at="2017-11-27T14:20:20Z" finished-at="2017-11-27T14:20:31Z">
+  <suite name="MMJTest" duration-ms="85411" started-at="2017-12-01T17:10:05Z" finished-at="2017-12-01T17:11:30Z">
     <groups>
     </groups>
-    <test name="ChromeTesting" duration-ms="10357" started-at="2017-11-27T14:20:20Z" finished-at="2017-11-27T14:20:31Z">
-      <class name="pageobject.buildertest.DemoTestSuit">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pageobject.buildertest.DemoTestSuit@3fd9e01c]" name="setup" is-config="true" duration-ms="5881" started-at="2017-11-27T16:20:20Z" finished-at="2017-11-27T16:20:26Z">
+    <test name="ChromeTesting" duration-ms="85411" started-at="2017-12-01T17:10:05Z" finished-at="2017-12-01T17:11:30Z">
+      <class name="pageobject.strategytest.DemoTestSuit">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pageobject.strategytest.DemoTestSuit@4af84a76]" name="setup" is-config="true" duration-ms="5237" started-at="2017-12-01T19:10:35Z" finished-at="2017-12-01T19:10:40Z">
           <params>
             <param index="0">
               <value>
@@ -24,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checkRedirectionToMenuPageAfterAddingLocationManuallyTEST()[pri:0, instance:pageobject.buildertest.DemoTestSuit@3fd9e01c]" name="checkRedirectionToMenuPageAfterAddingLocationManuallyTEST" duration-ms="3195" started-at="2017-11-27T16:20:26Z" finished-at="2017-11-27T16:20:29Z">
+        <test-method status="PASS" signature="checkRedirectionToMenuPageAfterAddingLocationAutomatically()[pri:0, instance:pageobject.strategytest.DemoTestSuit@4af84a76]" name="checkRedirectionToMenuPageAfterAddingLocationAutomatically" duration-ms="1892" started-at="2017-12-01T19:10:40Z" finished-at="2017-12-01T19:10:42Z">
           <reporter-output>
             <line>
               <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
@@ -33,8 +69,212 @@
               <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
             </line>
           </reporter-output>
+        </test-method> <!-- checkRedirectionToMenuPageAfterAddingLocationAutomatically -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pageobject.strategytest.DemoTestSuit@4af84a76]" name="tearDown" is-config="true" duration-ms="972" started-at="2017-12-01T19:10:42Z" finished-at="2017-12-01T19:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pageobject.strategytest.DemoTestSuit@4af84a76]" name="setup" is-config="true" duration-ms="5239" started-at="2017-12-01T19:10:43Z" finished-at="2017-12-01T19:10:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkRedirectionToMenuPageAfterAddingLocationManually()[pri:0, instance:pageobject.strategytest.DemoTestSuit@4af84a76]" name="checkRedirectionToMenuPageAfterAddingLocationManually" duration-ms="761" started-at="2017-12-01T19:10:48Z" finished-at="2017-12-01T19:10:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+            </line>
+            <line>
+              <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkRedirectionToMenuPageAfterAddingLocationManually -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pageobject.strategytest.DemoTestSuit@4af84a76]" name="tearDown" is-config="true" duration-ms="1041" started-at="2017-12-01T19:10:49Z" finished-at="2017-12-01T19:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageobject.strategytest.DemoTestSuit -->
+      <class name="pageobject.facadetest.DemoTestSuit">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pageobject.facadetest.DemoTestSuit@b5ff70b]" name="setup" is-config="true" duration-ms="5615" started-at="2017-12-01T19:10:50Z" finished-at="2017-12-01T19:10:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkLogInAdminUser()[pri:0, instance:pageobject.facadetest.DemoTestSuit@b5ff70b]" name="checkLogInAdminUser" duration-ms="10040" started-at="2017-12-01T19:10:56Z" finished-at="2017-12-01T19:11:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+            </line>
+            <line>
+              <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLogInAdminUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pageobject.facadetest.DemoTestSuit@b5ff70b]" name="tearDown" is-config="true" duration-ms="1035" started-at="2017-12-01T19:11:06Z" finished-at="2017-12-01T19:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pageobject.facadetest.DemoTestSuit@b5ff70b]" name="setup" is-config="true" duration-ms="14701" started-at="2017-12-01T19:11:07Z" finished-at="2017-12-01T19:11:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkLogInManagerUser()[pri:0, instance:pageobject.facadetest.DemoTestSuit@b5ff70b]" name="checkLogInManagerUser" duration-ms="749" started-at="2017-12-01T19:11:22Z" finished-at="2017-12-01T19:11:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+            </line>
+            <line>
+              <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLogInManagerUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pageobject.facadetest.DemoTestSuit@b5ff70b]" name="tearDown" is-config="true" duration-ms="1017" started-at="2017-12-01T19:11:22Z" finished-at="2017-12-01T19:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pageobject.facadetest.DemoTestSuit@b5ff70b]" name="setup" is-config="true" duration-ms="4715" started-at="2017-12-01T19:11:23Z" finished-at="2017-12-01T19:11:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkLogInShipperUser()[pri:0, instance:pageobject.facadetest.DemoTestSuit@b5ff70b]" name="checkLogInShipperUser" duration-ms="826" started-at="2017-12-01T19:11:28Z" finished-at="2017-12-01T19:11:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+            </line>
+            <line>
+              <![CDATA[<p><b>Test Status after execution: </b>&nbspPass<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLogInShipperUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pageobject.facadetest.DemoTestSuit@b5ff70b]" name="tearDown" is-config="true" duration-ms="1125" started-at="2017-12-01T19:11:29Z" finished-at="2017-12-01T19:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageobject.facadetest.DemoTestSuit -->
+      <class name="pageobject.buildertest.DemoTestSuit">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pageobject.buildertest.DemoTestSuit@72168258]" name="setup" is-config="true" duration-ms="5918" started-at="2017-12-01T19:10:05Z" finished-at="2017-12-01T19:10:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="checkRedirectionToMenuPageAfterAddingLocationManuallyTEST()[pri:0, instance:pageobject.buildertest.DemoTestSuit@72168258]" name="checkRedirectionToMenuPageAfterAddingLocationManuallyTEST" duration-ms="11251" started-at="2017-12-01T19:10:11Z" finished-at="2017-12-01T19:10:22Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//figure[@data-strain='hybrid' and @data-product='prerolls']//h2[.='testproduct1342']/..//div[@class='pack-count three-packs text-color-2']/div[@class='count-part count-plus']"}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'EPUALVIW0912', ip: '10.25.14.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\NAZAR_~1\AppData\Local\Temp\scoped_dir20928_1985}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 42698aab76f87d62769d478293c9c92e
+*** Element info: {Using=xpath, value=//figure[@data-strain='hybrid' and @data-product='prerolls']//h2[.='testproduct1342']/..//div[@class='pack-count three-packs text-color-2']/div[@class='count-part count-plus']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//figure[@data-strain='hybrid' and @data-product='prerolls']//h2[.='testproduct1342']/..//div[@class='pack-count three-packs text-color-2']/div[@class='count-part count-plus']"}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'EPUALVIW0912', ip: '10.25.14.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\NAZAR_~1\AppData\Local\Temp\scoped_dir20928_1985}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 42698aab76f87d62769d478293c9c92e
+*** Element info: {Using=xpath, value=//figure[@data-strain='hybrid' and @data-product='prerolls']//h2[.='testproduct1342']/..//div[@class='pack-count three-packs text-color-2']/div[@class='count-part count-plus']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy24.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at pageObject.mmjtraine.pages.MenuPage.selectQuantityProductItem(MenuPage.java:70)
+	at pageobject.buildertest.DemoTestSuit.checkRedirectionToMenuPageAfterAddingLocationManuallyTEST(DemoTestSuit.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p><b>Test Status after execution: </b>&nbspFailed<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b><a href="file:///C:\Users\Nazar_Gorodenchuk\Desktop\patternsdemo-master/target/screenshots/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_25.png" target='_blank' ><p><br/><img src="file:///C:\Users\Nazar_Gorodenchuk\Desktop\patternsdemo-master/target/screenshots/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_25.png" width="600" height="400" alt=""/><br/></p></a></b><p>]]>
+            </line>
+            <line>
+              <![CDATA[<p><b>Test Status after execution: </b>&nbspFailed<p>]]>
+            </line>
+            <line>
+              <![CDATA[<b><a href="file:///C:\Users\Nazar_Gorodenchuk\Desktop\patternsdemo-master/target/screenshots/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_31.png" target='_blank' ><p><br/><img src="file:///C:\Users\Nazar_Gorodenchuk\Desktop\patternsdemo-master/target/screenshots/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_31.png" width="600" height="400" alt=""/><br/></p></a></b><p>]]>
+            </line>
+          </reporter-output>
         </test-method> <!-- checkRedirectionToMenuPageAfterAddingLocationManuallyTEST -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pageobject.buildertest.DemoTestSuit@3fd9e01c]" name="tearDown" is-config="true" duration-ms="1245" started-at="2017-11-27T16:20:29Z" finished-at="2017-11-27T16:20:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pageobject.buildertest.DemoTestSuit@72168258]" name="tearDown" is-config="true" duration-ms="1193" started-at="2017-12-01T19:10:34Z" finished-at="2017-12-01T19:10:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

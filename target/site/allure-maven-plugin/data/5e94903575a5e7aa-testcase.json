@@ -1,35 +1,50 @@
 {
-  "uid" : "f01f5cec6bf0d9be",
-  "name" : "test",
-  "title" : "Test",
+  "uid" : "5e94903575a5e7aa",
+  "name" : "checkLogInManagerUser",
+  "title" : "Check log in manager user",
   "time" : {
-    "start" : 1511790231855,
-    "stop" : 1511790231860,
-    "duration" : 5
+    "start" : 1512148282037,
+    "stop" : 1512148282785,
+    "duration" : 748
   },
   "summary" : {
     "attachments" : 0,
-    "steps" : 0
+    "steps" : 1
   },
-  "failure" : {
-    "message" : "Test not implemented yet",
-    "stackTrace" : "There are no stack trace"
-  },
+  "failure" : null,
   "description" : null,
   "severity" : "NORMAL",
-  "status" : "PENDING",
+  "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "c6907c7b494880bd",
+    "uid" : "409f4bd67daf37bb",
     "name" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]",
     "title" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]"
   },
-  "steps" : [ ],
+  "steps" : [ {
+    "name" : "clickOnSignInButton",
+    "title" : "Click on sign in button",
+    "time" : {
+      "start" : 1512148282038,
+      "stop" : 1512148282125,
+      "duration" : 87
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
   "attachments" : [ ],
   "issues" : [ ],
   "labels" : [ {
     "name" : "language",
     "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "360@EPUALVIW0912.TestNG(15)"
   }, {
     "name" : "host",
     "value" : "EPUALVIW0912"
@@ -42,9 +57,6 @@
   }, {
     "name" : "suite-name",
     "value" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]"
-  }, {
-    "name" : "thread",
-    "value" : "12524@EPUALVIW0912.TestNG(15)"
   } ],
   "parameters" : [ ]
 }

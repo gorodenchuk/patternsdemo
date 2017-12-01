@@ -1,0 +1,62 @@
+{
+  "uid" : "a2a540815b0837b3",
+  "name" : "checkLogInShipperUser",
+  "title" : "Check log in shipper user",
+  "time" : {
+    "start" : 1512148288519,
+    "stop" : 1512148289345,
+    "duration" : 826
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "409f4bd67daf37bb",
+    "name" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]",
+    "title" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]"
+  },
+  "steps" : [ {
+    "name" : "clickOnSignInButton",
+    "title" : "Click on sign in button",
+    "time" : {
+      "start" : 1512148288521,
+      "stop" : 1512148288609,
+      "duration" : 88
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "360@EPUALVIW0912.TestNG(15)"
+  }, {
+    "name" : "host",
+    "value" : "EPUALVIW0912"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]"
+  }, {
+    "name" : "suite-name",
+    "value" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]"
+  } ],
+  "parameters" : [ ]
+}

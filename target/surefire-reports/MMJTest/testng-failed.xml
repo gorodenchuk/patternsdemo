@@ -11,6 +11,33 @@
     <parameter name="config" value="single.conf.json"/>
     <classes>
       <class name="pageobject.buildertest.DemoTestSuit"/>
+      <class name="pageobject.strategytest.DemoTestSuit"/>
+      <class name="pageobject.facadetest.DemoTestSuit"/>
     </classes>
   </test> <!-- ChromeTesting -->
+  <test name="ChromeTesting(failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="config" value="single.conf.json"/>
+    <classes>
+      <class name="pageobject.strategytest.DemoTestSuit">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pageobject.strategytest.DemoTestSuit -->
+      <class name="pageobject.facadetest.DemoTestSuit">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pageobject.facadetest.DemoTestSuit -->
+      <class name="pageobject.buildertest.DemoTestSuit">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="checkRedirectionToMenuPageAfterAddingLocationManuallyTEST"/>
+        </methods>
+      </class> <!-- pageobject.buildertest.DemoTestSuit -->
+    </classes>
+  </test> <!-- ChromeTesting(failed) -->
 </suite> <!-- Failed suite [MMJTest] -->

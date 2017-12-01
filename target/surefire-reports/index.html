@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-MMJTest">
-              <span class="suite-name border-passed">MMJTest</span>
+              <span class="suite-name border-failed">MMJTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MMJTest" class="hide-methods failed suite-MMJTest"> (hide)</a> <!-- hide-methods failed suite-MMJTest -->
+                      <a href="#" panel-name="suite-MMJTest" class="show-methods failed suite-MMJTest"> (show)</a> <!-- show-methods failed suite-MMJTest -->
+                    </span>
+                    <div class="method-list-content failed suite-MMJTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMJTest" title="pageobject.buildertest.DemoTestSuit" hash-for-method="checkRedirectionToMenuPageAfterAddingLocationManuallyTEST">checkRedirectionToMenuPageAfterAddingLocationManuallyTEST</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MMJTest -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +116,27 @@
                     <div class="method-list-content passed suite-MMJTest">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-MMJTest" title="pageobject.buildertest.DemoTestSuit" hash-for-method="checkRedirectionToMenuPageAfterAddingLocationManuallyTEST">checkRedirectionToMenuPageAfterAddingLocationManuallyTEST</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-MMJTest" title="pageobject.facadetest.DemoTestSuit" hash-for-method="checkLogInAdminUser">checkLogInAdminUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMJTest" title="pageobject.facadetest.DemoTestSuit" hash-for-method="checkLogInManagerUser">checkLogInManagerUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMJTest" title="pageobject.facadetest.DemoTestSuit" hash-for-method="checkLogInShipperUser">checkLogInShipperUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMJTest" title="pageobject.strategytest.DemoTestSuit" hash-for-method="checkRedirectionToMenuPageAfterAddingLocationAutomatically">checkRedirectionToMenuPageAfterAddingLocationAutomatically</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMJTest" title="pageobject.strategytest.DemoTestSuit" hash-for-method="checkRedirectionToMenuPageAfterAddingLocationManually">checkRedirectionToMenuPageAfterAddingLocationManually</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-MMJTest -->
@@ -117,9 +151,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-MMJTest" class="panel MMJTest">
-          <div class="suite-MMJTest-class-passed">
+          <div class="suite-MMJTest-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">pageobject.buildertest.DemoTestSuit</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,6 +162,86 @@
                   <a name="checkRedirectionToMenuPageAfterAddingLocationManuallyTEST">
                   </a> <!-- checkRedirectionToMenuPageAfterAddingLocationManuallyTEST -->
                   <span class="method-name">checkRedirectionToMenuPageAfterAddingLocationManuallyTEST</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//figure[@data-strain=&apos;hybrid&apos; and @data-product=&apos;prerolls&apos;]//h2[.=&apos;testproduct1342&apos;]/..//div[@class=&apos;pack-count three-packs text-color-2&apos;]/div[@class=&apos;count-part count-plus&apos;]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;EPUALVIW0912&apos;, ip: &apos;10.25.14.48&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\NAZAR_~1\AppData\Local\Temp\scoped_dir20928_1985}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 42698aab76f87d62769d478293c9c92e
+*** Element info: {Using=xpath, value=//figure[@data-strain=&apos;hybrid&apos; and @data-product=&apos;prerolls&apos;]//h2[.=&apos;testproduct1342&apos;]/..//div[@class=&apos;pack-count three-packs text-color-2&apos;]/div[@class=&apos;count-part count-plus&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy24.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at pageObject.mmjtraine.pages.MenuPage.selectQuantityProductItem(MenuPage.java:70)
+	at pageobject.buildertest.DemoTestSuit.checkRedirectionToMenuPageAfterAddingLocationManuallyTEST(DemoTestSuit.java:34)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MMJTest-class-failed -->
+          <div class="suite-MMJTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pageobject.strategytest.DemoTestSuit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRedirectionToMenuPageAfterAddingLocationAutomatically">
+                  </a> <!-- checkRedirectionToMenuPageAfterAddingLocationAutomatically -->
+                  <span class="method-name">checkRedirectionToMenuPageAfterAddingLocationAutomatically</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRedirectionToMenuPageAfterAddingLocationManually">
+                  </a> <!-- checkRedirectionToMenuPageAfterAddingLocationManually -->
+                  <span class="method-name">checkRedirectionToMenuPageAfterAddingLocationManually</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MMJTest-class-passed -->
+          <div class="suite-MMJTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pageobject.facadetest.DemoTestSuit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLogInAdminUser">
+                  </a> <!-- checkLogInAdminUser -->
+                  <span class="method-name">checkLogInAdminUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLogInManagerUser">
+                  </a> <!-- checkLogInManagerUser -->
+                  <span class="method-name">checkLogInManagerUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLogInShipperUser">
+                  </a> <!-- checkLogInShipperUser -->
+                  <span class="method-name">checkLogInShipperUser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -150,6 +264,8 @@
     &lt;parameter name=&quot;config&quot; value=&quot;single.conf.json&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;pageobject.buildertest.DemoTestSuit&quot;/&gt;
+      &lt;class name=&quot;pageobject.strategytest.DemoTestSuit&quot;/&gt;
+      &lt;class name=&quot;pageobject.facadetest.DemoTestSuit&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ChromeTesting --&gt;
 &lt;/suite&gt; &lt;!-- MMJTest --&gt;
@@ -163,7 +279,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ChromeTesting (1 class)</span>
+                <span class="test-name">ChromeTesting (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,16 +305,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkRedirectionToMenuPageAfterAddingLocationManuallyTEST')
 data.setCell(0, 2, 'pageobject.buildertest.DemoTestSuit')
-data.setCell(0, 3, 3195);
+data.setCell(0, 3, 11251);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkLogInAdminUser')
+data.setCell(1, 2, 'pageobject.facadetest.DemoTestSuit')
+data.setCell(1, 3, 10040);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkRedirectionToMenuPageAfterAddingLocationAutomatically')
+data.setCell(2, 2, 'pageobject.strategytest.DemoTestSuit')
+data.setCell(2, 3, 1892);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkLogInShipperUser')
+data.setCell(3, 2, 'pageobject.facadetest.DemoTestSuit')
+data.setCell(3, 3, 826);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkRedirectionToMenuPageAfterAddingLocationManually')
+data.setCell(4, 2, 'pageobject.strategytest.DemoTestSuit')
+data.setCell(4, 3, 761);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkLogInManagerUser')
+data.setCell(5, 2, 'pageobject.facadetest.DemoTestSuit')
+data.setCell(5, 3, 749);
 window.suiteTableData['MMJTest']= { tableData: data, tableDiv: 'times-div-MMJTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-MMJTest">
               </div> <!-- times-div-MMJTest -->
             </div> <!-- times-div -->
@@ -210,10 +346,47 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">checkRedirectionToMenuPageAfterAddingLocationManuallyTEST</span>
+              <span class="reporter-method-name">checkLogInManagerUser</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"><p><b>Test Status after execution: </b>&nbspPass<p></span>
                 <span class="reporter-method-output"><p><b>Test Status after execution: </b>&nbspPass<p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkLogInAdminUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p><b>Test Status after execution: </b>&nbspPass<p></span>
+                <span class="reporter-method-output"><p><b>Test Status after execution: </b>&nbspPass<p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkRedirectionToMenuPageAfterAddingLocationManually</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p><b>Test Status after execution: </b>&nbspPass<p></span>
+                <span class="reporter-method-output"><p><b>Test Status after execution: </b>&nbspPass<p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkLogInShipperUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p><b>Test Status after execution: </b>&nbspPass<p></span>
+                <span class="reporter-method-output"><p><b>Test Status after execution: </b>&nbspPass<p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkRedirectionToMenuPageAfterAddingLocationAutomatically</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p><b>Test Status after execution: </b>&nbspPass<p></span>
+                <span class="reporter-method-output"><p><b>Test Status after execution: </b>&nbspPass<p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkRedirectionToMenuPageAfterAddingLocationManuallyTEST</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p><b>Test Status after execution: </b>&nbspFailed<p></span>
+                <span class="reporter-method-output"><b><a href="file:///C:\Users\Nazar_Gorodenchuk\Desktop\patternsdemo-master/target/screenshots/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_25.png" target='_blank' ><p><br/><img src="file:///C:\Users\Nazar_Gorodenchuk\Desktop\patternsdemo-master/target/screenshots/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_25.png" width="600" height="400" alt=""/><br/></p></a></b><p></span>
+                <span class="reporter-method-output"><p><b>Test Status after execution: </b>&nbspFailed<p></span>
+                <span class="reporter-method-output"><b><a href="file:///C:\Users\Nazar_Gorodenchuk\Desktop\patternsdemo-master/target/screenshots/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_31.png" target='_blank' ><p><br/><img src="file:///C:\Users\Nazar_Gorodenchuk\Desktop\patternsdemo-master/target/screenshots/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST/checkRedirectionToMenuPageAfterAddingLocationManuallyTEST_01_12_2017_07_10_31.png" width="600" height="400" alt=""/><br/></p></a></b><p></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -237,12 +410,80 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">checkRedirectionToMenuPageAfterAddingLocationManuallyTEST</span>
-                <span class="method-start">5881 ms</span>
+                <span class="method-start">5919 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9082 ms</span>
+                <span class="method-start">29208 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageobject.strategytest.DemoTestSuit</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">30401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkRedirectionToMenuPageAfterAddingLocationAutomatically</span>
+                <span class="method-start">35638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37534 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">38506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkRedirectionToMenuPageAfterAddingLocationManually</span>
+                <span class="method-start">43746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44508 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageobject.facadetest.DemoTestSuit</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">45550 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkLogInAdminUser</span>
+                <span class="method-start">51165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">62243 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkLogInManagerUser</span>
+                <span class="method-start">76944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">78711 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkLogInShipperUser</span>
+                <span class="method-start">83426 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84254 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

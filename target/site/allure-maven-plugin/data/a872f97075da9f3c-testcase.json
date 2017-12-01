@@ -1,35 +1,50 @@
 {
-  "uid" : "f74c72129d592c8",
+  "uid" : "a872f97075da9f3c",
   "name" : "checkRedirectionToMenuPageAfterAddingLocationManually",
   "title" : "Check redirection to menu page after adding location manually",
   "time" : {
-    "start" : 1511790231860,
-    "stop" : 1511790231860,
-    "duration" : 0
+    "start" : 1512148248840,
+    "stop" : 1512148249599,
+    "duration" : 759
   },
   "summary" : {
     "attachments" : 0,
-    "steps" : 0
+    "steps" : 1
   },
-  "failure" : {
-    "message" : "Test not implemented yet",
-    "stackTrace" : "There are no stack trace"
-  },
+  "failure" : null,
   "description" : null,
   "severity" : "NORMAL",
-  "status" : "PENDING",
+  "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "c6907c7b494880bd",
+    "uid" : "409f4bd67daf37bb",
     "name" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]",
     "title" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]"
   },
-  "steps" : [ ],
+  "steps" : [ {
+    "name" : "giveGeolocation[pageObject.mmjtraine.businessobject.geolocationstrategy.ManualLocation@7b8c7bc8]",
+    "title" : "Give geolocation [pageObject.mmjtraine.businessobject.geolocationstrategy.ManualLocation@7b8c7bc8]",
+    "time" : {
+      "start" : 1512148248843,
+      "stop" : 1512148249281,
+      "duration" : 438
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
   "attachments" : [ ],
   "issues" : [ ],
   "labels" : [ {
     "name" : "language",
     "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "360@EPUALVIW0912.TestNG(15)"
   }, {
     "name" : "host",
     "value" : "EPUALVIW0912"
@@ -42,9 +57,6 @@
   }, {
     "name" : "suite-name",
     "value" : "MMJTest : ChromeTesting[browserName=chrome, config=single.conf.json]"
-  }, {
-    "name" : "thread",
-    "value" : "12524@EPUALVIW0912.TestNG(15)"
   } ],
   "parameters" : [ ]
 }
