@@ -1,7 +1,656 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90b77413-6b29-4c56-9c0a-f6b3a774c6ac" name="Default" comment="" />
+    <list default="true" id="90b77413-6b29-4c56-9c0a-f6b3a774c6ac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../web.services.testing/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/52/a0db7731dcac0016108fd3b36a1f88e2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ed/d09c593bdcac0016108fd3b36a1f88e2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ee/e0af777cdcac0016108fd3b36a1f88e2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/browserStack/.indexes/af/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/browserStack/.indexes/e4/40/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/113.tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_h.fdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_h.fdx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_h.frq" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_h.nrm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_h.prx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_h.tis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_i.fdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_i.fdx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_i.fnm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_i.frq" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_i.nrm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_i.prx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_i.tii" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_i.tis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments_j" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1014641447.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1087773719.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1218991244.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1262539792.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1525515091.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1901775436.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2055758964.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/235743372.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2467215082.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2506739032.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2990378336.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3582662423.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4248807315.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/939553119.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_24" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_50.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_50_3.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_51.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_52.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_52_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_53.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_54.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_4o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/_8m.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/_8m_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/_8n.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/_8n_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/_8o.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/_8o_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/_8p.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/_8p_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/_8q.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/_8q_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/_8r.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/segments_7y" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_14.fdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_14.fdx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_14.fnm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_14.frq" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_14.nrm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_14.prx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_14.tii" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/_14.tis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/segments_15" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PageObjectModel" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../RemoteSystemsTempFiles/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SeleniumExample/SeleniumExample/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SeleniumExample/SeleniumExample/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SeleniumExample/SeleniumExample/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SeleniumExample/SeleniumExample/bin/drivers/chromedriver.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SeleniumExample/SeleniumExample/bin/webdriver/demo/ExampleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SeleniumExample/SeleniumExample/bin/webdriver/demo/SeleniumLits9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SeleniumExample/SeleniumExample/src/drivers/chromedriver.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SeleniumExample/SeleniumExample/src/webdriver/demo/ExampleTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SeleniumExample/SeleniumExample/src/webdriver/demo/SeleniumLits9.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/bin/DataProviderTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/bin/TestExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/bin/TestNGExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/bin/suite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/src/DataProviderTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/src/TestExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/src/TestNGExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/src/suite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/Default suite/Default test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/Default suite/Default test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/Default suite/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/Testing/Testing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/Testing/Testing.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/Testing/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/UnitTesting by groups/GRP-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/UnitTesting by groups/GRP-1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/UnitTesting by groups/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/junitreports/TEST-DataProviderTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/junitreports/TEST-TestExample.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/junitreports/TEST-TestNGExample.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Default suite/Default test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Default suite/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Default suite/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Default suite/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Default suite/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Default suite/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Default suite/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Default suite/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Default suite/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Default suite/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Default suite/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Testing/Testing.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Testing/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Testing/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Testing/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Testing/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Testing/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Testing/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Testing/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Testing/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Testing/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/Testing/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/UnitTesting by groups/GRP-1.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/UnitTesting by groups/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/UnitTesting by groups/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/UnitTesting by groups/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/UnitTesting by groups/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/UnitTesting by groups/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/UnitTesting by groups/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/UnitTesting by groups/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/UnitTesting by groups/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/UnitTesting by groups/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/UnitTesting by groups/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestNG/lessonTestNg/UnitTesting/UnitTesting/UnitTesting/test-output/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pageobject/HomePageTestSuite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pageobject/TestBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pages/HomePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pages/OpenedResultPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pages/Page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pages/SearchResultPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/pages/WebDriverFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/bin/resources/page-object-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pageobject/HomePageTestSuite.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pageobject/TestBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pages/HomePage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pages/OpenedResultPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pages/Page.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pages/SearchResultPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/pages/WebDriverFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/src/resources/page-object-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/Default suite/Default test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/Default suite/Default test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/Default suite/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/PageObjectExampleTest/TestLQAS.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/PageObjectExampleTest/TestLQAS.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/PageObjectExampleTest/TestMissionImposible.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/PageObjectExampleTest/TestMissionImposible.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/PageObjectExampleTest/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/junitreports/TEST-pageobject.HomePageTestSuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/Default test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/Default suite/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/TestLQAS.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/TestMissionImposible.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/PageObjectExampleTest/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Tets_ Oleg_training_myHit/test-output/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/Mobile Hybrid app Demo Test Suite 1/Mobile Hybrid Demo Test 1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/Mobile Hybrid app Demo Test Suite 1/Mobile Hybrid Demo Test 1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/Mobile Hybrid app Demo Test Suite 1/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/junitreports/TEST-framework.hybridtests.MobileHybridDemoTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/old/Mobile Hybrid app Demo Test Suite 1/Mobile Hybrid Demo Test 1.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/old/Mobile Hybrid app Demo Test Suite 1/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/old/Mobile Hybrid app Demo Test Suite 1/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/old/Mobile Hybrid app Demo Test Suite 1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/old/Mobile Hybrid app Demo Test Suite 1/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/old/Mobile Hybrid app Demo Test Suite 1/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/old/Mobile Hybrid app Demo Test Suite 1/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/old/Mobile Hybrid app Demo Test Suite 1/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/old/Mobile Hybrid app Demo Test Suite 1/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/old/Mobile Hybrid app Demo Test Suite 1/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/old/Mobile Hybrid app Demo Test Suite 1/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../browserStack/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../browserStack/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../browserStack/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../browserStack/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../browserStack/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../browserStack/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../browserStack/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../browserStack/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../browserStack/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../browserStack/bin/browserStack/sample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../browserStack/browserStack.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../browserStack/src/browserStack/sample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/src/main/java/resources/OrederMakingTestSuit.makingOrder1regular.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/allure-results/c61c07da-f92d-433c-b688-85196e485853-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/mmjdoctoronline-core-0.0.1-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/css/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/data/8bfd14d2d05eaba-testcase.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/data/ac274d30786572e1-testcase.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/data/b65b1820edc4756b-testcase.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/data/behaviors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/data/defects.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/data/environment.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/data/graph.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/data/plugins.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/data/report.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/data/timeline.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/data/total.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/data/widgets.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/data/xunit.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/flash/clippy.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/img/allure-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/img/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/img/tests_passed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/charts/charts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/charts/duration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/charts/pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/charts/severityMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/charts/timeline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/directives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/overview/widgets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/pane/pane.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/pluginApi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/scrollfix/scrollfix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/table/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/testcase/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/testcase/provider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/testcase/statusSwitcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/js/testcase/testcase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/behaviors/en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/behaviors/ptbr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/behaviors/ru.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/behaviors/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/behaviors/tab.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/defects/en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/defects/ptbr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/defects/ru.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/defects/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/defects/tab.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/environment/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/graph/en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/graph/ptbr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/graph/ru.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/graph/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/graph/tab.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/timeline/en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/timeline/ptbr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/timeline/ru.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/timeline/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/timeline/tab.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/total/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/xunit/en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/xunit/ptbr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/xunit/ru.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/xunit/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/xunit/tab.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/xunit/testrun.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/plugins/xunit/testsuite.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/templates/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/templates/overview/defects.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/templates/overview/keyValue.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/templates/overview/statistics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/templates/overview/total.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/templates/table/table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/templates/testcase/attachment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/templates/testcase/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/templates/testcase/status-switcher.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/templates/testcase/testcase.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/templates/testcase/testcaseView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/translations/en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/translations/ptbr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/translations/ru.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/vendor/filesize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/vendor/localstorageprovider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/vendor/messageformat/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/vendor/messageformat/ptbr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/vendor/messageformat/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/Sortable/1.2.0/Sortable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/Sortable/1.2.0/ng-sortable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/angular-loading-bar/0.6.0/loading-bar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/angular-translate-interpolation-messageformat/0.1.2/angular-translate-interpolation-messageformat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/angular-translate-loader-partial/2.6.0/angular-translate-loader-partial.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/angular-translate/2.6.0/angular-translate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/angular-ui-bootstrap/0.11.2/ui-bootstrap-tpls.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/angular-ui-router/0.2.13/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/angularjs/1.2.26/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/angularjs/1.2.26/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/d3js/3.4.11/d3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/font-awesome/4.2.0/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/highlightjs/8.2-1/highlight.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/jquery/2.1.1/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/allure-maven-plugin/webjars/messageformat.js/0.1.4/messageformat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/css/maven-base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/css/maven-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/css/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/css/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/images/collapsed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/images/expanded.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/images/external.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/images/icon_error_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/images/icon_info_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/images/icon_success_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/images/icon_warning_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/images/logos/build-by-maven-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/images/logos/build-by-maven-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/images/logos/maven-feather.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/images/newwindow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/site/project-reports.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/PageObjectExampleTest/OrderTesting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/PageObjectExampleTest/OrderTesting.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/PageObjectExampleTest/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/TEST-TestSuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/TestSuite.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/junitreports/TEST-pageobject.oredersonmmjtest.OrederMakingTestSuit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/old/PageObjectExampleTest/OrderTesting.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/old/PageObjectExampleTest/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/old/PageObjectExampleTest/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/old/PageObjectExampleTest/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/old/PageObjectExampleTest/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/old/PageObjectExampleTest/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/old/PageObjectExampleTest/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/old/PageObjectExampleTest/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/old/PageObjectExampleTest/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/old/PageObjectExampleTest/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/old/PageObjectExampleTest/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/eamilStage1.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/src/main/java/test/google/eamilStage1/App.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/src/test/java/test/google/eamilStage1/AppTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/target/classes/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/target/classes/META-INF/maven/test.google/eamilStage1/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/target/classes/META-INF/maven/test.google/eamilStage1/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/target/classes/test/google/eamilStage1/App.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../eamilStage1/target/test-classes/test/google/eamilStage1/AppTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../headFirsCodeExample/Head-First-Java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/bin/home_5_1/JDBCConnector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/bin/home_5_2/Calendar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/bin/home_5_3/ReadFile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/bin/home_5_4/DomParserXml.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/bin/home_5_4/JacksonUsage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/bin/home_5_4/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/bin/home_5_4/StudentsDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/bin/home_5_4/students.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/bin/home_5_4/students.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/bin/home_TestNG/TestNg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/bin/qweq/Robot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/src/home_5_1/JDBCConnector.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/src/home_5_2/Calendar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/src/home_5_3/ReadFile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/src/home_5_4/DomParserXml.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/src/home_5_4/JacksonUsage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/src/home_5_4/StudentsDTO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/src/home_5_4/students.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/src/home_5_4/students.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/src/home_TestNG/TestNg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home/src/qweq/Robot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home_1/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home_1/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../home_1/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lala.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_3(xml)/lesson_java5_3(xml)/DOM/DOM/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_3(xml)/lesson_java5_3(xml)/DOM/DOM/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_3(xml)/lesson_java5_3(xml)/DOM/DOM/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_3(xml)/lesson_java5_3(xml)/DOM/DOM/bin/DOMParserDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_3(xml)/lesson_java5_3(xml)/DOM/DOM/bin/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_3(xml)/lesson_java5_3(xml)/DOM/DOM/bin/employee.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_3(xml)/lesson_java5_3(xml)/DOM/DOM/src/DOMParserDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_3(xml)/lesson_java5_3(xml)/DOM/DOM/src/employee.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/HTTP/HTTP/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/HTTP/HTTP/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/HTTP/HTTP/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/HTTP/HTTP/bin/HttpClientTutorial.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/HTTP/HTTP/lib/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/HTTP/HTTP/lib/NOTICE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/HTTP/HTTP/lib/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/HTTP/HTTP/lib/RELEASE_NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/HTTP/HTTP/lib/org.apache.httpcomponents.httpclient_4.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/HTTP/HTTP/src/HttpClientTutorial.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lesson_java5_5(http)/HTTP/HTTP/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lesson_java5_5(http)/HTTP/HTTP/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lesson_java5_5(http)/HTTP/HTTP/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lesson_java5_5(http)/HTTP/HTTP/bin/HttpClientTutorial.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lesson_java5_5(http)/HTTP/HTTP/lib/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lesson_java5_5(http)/HTTP/HTTP/lib/NOTICE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lesson_java5_5(http)/HTTP/HTTP/lib/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lesson_java5_5(http)/HTTP/HTTP/lib/RELEASE_NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lesson_java5_5(http)/HTTP/HTTP/lib/org.apache.httpcomponents.httpclient_4.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lesson_java5_5(http)/HTTP/HTTP/src/HttpClientTutorial.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lib/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lib/NOTICE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lib/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lib/RELEASE_NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lib/commons-codec-1.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lib/fluent-hc-4.3.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lib/httpclient-4.3.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lib/httpclient-cache-4.3.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lib/httpcore-4.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lib/httpmime-4.3.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/lib/org.apache.httpcomponents.httpclient_4.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../lesson_java5_5(http)/src/HttpClientTutorial.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../stupid/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../stupid/bin/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../test.mev.com/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../test.mev.com/bin/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../traningWiningTicketsInTraine/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../traningWiningTicketsInTraine/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../traningWiningTicketsInTraine/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../traningWiningTicketsInTraine/bin/traningWiningTicketsInTraine/TicketsNumbers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../traningWiningTicketsInTraine/src/traningWiningTicketsInTraine/TicketsNumbers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/RecivingEmails.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/OlehOriginalCheckEmail.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/OriginalCheckEmail.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/OriginalCheckingMails.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/src/CheckEmailGoogleApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/src/EmailList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/src/OlehOriginalCheckEmail.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/src/OriginalCheckEmail.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/src/OriginalCheckingMails.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/src/test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../workspace.rar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HomeWork_GitHubProject/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HomeWork_GitHubProject/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/POExampleTest/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/POExampleTest/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SeleniumExample/.markers" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SeleniumExample/.markers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SeleniumExample/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SeleniumExample/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/allure/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/allure/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/com.mmjdoctoronline_with_new_logger_test/.markers" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/com.mmjdoctoronline_with_new_logger_test/.markers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/com.mmjdoctoronline_with_new_logger_test/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/com.mmjdoctoronline_with_new_logger_test/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/example_Xo/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/example_Xo/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/home/.markers" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/home/.markers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/home/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/home/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson Maven &amp; Git/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson Maven &amp; Git/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson PageObjectModel/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson PageObjectModel/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson selenium-grid/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson selenium-grid/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson seleniumWith3rdPartyLibs/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson seleniumWith3rdPartyLibs/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lessonJava1_0/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lessonJava1_0/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lessonJava1_1/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lessonJava1_1/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lessonJava4_1/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lessonJava4_1/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lessonJava4_2/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lessonJava4_2/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lessonJava4_4/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lessonJava4_4/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson_java5_1(jdbc)/.markers" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson_java5_1(jdbc)/.markers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson_java5_3(xml)/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson_java5_3(xml)/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson_java5_4(json)/.markers" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson_java5_4(json)/.markers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson_web.framework/.markers" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/lesson_web.framework/.markers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/malinatorTestProject_Gorodenchuk/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/malinatorTestProject_Gorodenchuk/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/testng-browserstack-master/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/testng-browserstack-master/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments.gen" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3535976153.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3535976153.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/segments.gen" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/e64d7350beb9624a823d0b4c363214f9/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/segments.gen" afterPath="$PROJECT_DIR$/../.recommenders/index/http___download_eclipse_org_recommenders_models_mars_/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/classes/framework/appiumdriver/AppiumDriverFactory.class" afterPath="$PROJECT_DIR$/../appium.example/target/classes/framework/appiumdriver/AppiumDriverFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/classes/framework/pages/Screen.class" afterPath="$PROJECT_DIR$/../appium.example/target/classes/framework/pages/Screen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/classes/framework/pages/hybridpages/PushWooshMainPage.class" afterPath="$PROJECT_DIR$/../appium.example/target/classes/framework/pages/hybridpages/PushWooshMainPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/classes/framework/pages/nativepages/ColorNoteHomePage.class" afterPath="$PROJECT_DIR$/../appium.example/target/classes/framework/pages/nativepages/ColorNoteHomePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/classes/framework/pages/nativepages/NewNoteEditPage.class" afterPath="$PROJECT_DIR$/../appium.example/target/classes/framework/pages/nativepages/NewNoteEditPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/test-classes/framework/nativetests/MobileNativeDemoTest.class" afterPath="$PROJECT_DIR$/../appium.example/target/test-classes/framework/nativetests/MobileNativeDemoTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/classes/pageObject/pages/enterapplication/mmjdoctoronline/HomePage.class" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/classes/pageObject/pages/enterapplication/mmjdoctoronline/HomePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/classes/pageObject/utility/CsvDataProvider.class" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/classes/pageObject/utility/CsvDataProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/classes/pageObject/utility/TestExecutionListener.class" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/classes/pageObject/utility/TestExecutionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/test-classes/pageobject/apitest/PartnerCreatingTestSuit.class" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/test-classes/pageobject/apitest/PartnerCreatingTestSuit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/test-classes/pageobject/oredersonmmjtest/OrederMakingTestSuit.class" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/test-classes/pageobject/oredersonmmjtest/OrederMakingTestSuit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/test-classes/pageobject/testcase/TestBase.class" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/test-classes/pageobject/testcase/TestBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson PageObjectModel" afterPath="$PROJECT_DIR$/../lesson PageObjectModel" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson_java5_2(fileReaderWriter)/bin/com/lqas/filestutorial/FileReaderWriter.class" afterPath="$PROJECT_DIR$/../lesson_java5_2(fileReaderWriter)/bin/com/lqas/filestutorial/FileReaderWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson_java5_2(fileReaderWriter)/bin/com/lqas/filestutorial/PropertyLoader.class" afterPath="$PROJECT_DIR$/../lesson_java5_2(fileReaderWriter)/bin/com/lqas/filestutorial/PropertyLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson_java5_2(fileReaderWriter)/bin/com/lqas/filestutorial/TestFilesManipulations.class" afterPath="$PROJECT_DIR$/../lesson_java5_2(fileReaderWriter)/bin/com/lqas/filestutorial/TestFilesManipulations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson_java5_3(xml)/bin/DOMParserDemo.class" afterPath="$PROJECT_DIR$/../lesson_java5_3(xml)/bin/DOMParserDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson_java5_3(xml)/bin/Employee.class" afterPath="$PROJECT_DIR$/../lesson_java5_3(xml)/bin/Employee.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.log" afterPath="$PROJECT_DIR$/../.metadata/.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.cdt.core/.log" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.cdt.core/.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/server-config.json" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/server-config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.internet.cache/cache.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.internet.cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/version.ini" afterPath="$PROJECT_DIR$/../.metadata/version.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SeleniumExample/.classpath" afterPath="$PROJECT_DIR$/../SeleniumExample/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../appium.example/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/.idea/misc.xml" afterPath="$PROJECT_DIR$/../appium.example/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../appium.example/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/appium.example.iml" afterPath="$PROJECT_DIR$/../appium.example/appium.example.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/pom.xml" afterPath="$PROJECT_DIR$/../appium.example/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/src/main/java/framework/appiumdriver/AppiumDriverFactory.java" afterPath="$PROJECT_DIR$/../appium.example/src/main/java/framework/appiumdriver/AppiumDriverFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/src/main/java/framework/pages/Screen.java" afterPath="$PROJECT_DIR$/../appium.example/src/main/java/framework/pages/Screen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/src/main/java/framework/pages/hybridpages/PushWooshMainPage.java" afterPath="$PROJECT_DIR$/../appium.example/src/main/java/framework/pages/hybridpages/PushWooshMainPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/src/main/java/framework/pages/nativepages/ColorNoteHomePage.java" afterPath="$PROJECT_DIR$/../appium.example/src/main/java/framework/pages/nativepages/ColorNoteHomePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/src/main/java/framework/pages/nativepages/NewNoteEditPage.java" afterPath="$PROJECT_DIR$/../appium.example/src/main/java/framework/pages/nativepages/NewNoteEditPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/src/main/resources/properties.xml" afterPath="$PROJECT_DIR$/../appium.example/src/main/resources/properties.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/src/test/java/framework/nativetests/MobileNativeDemoTest.java" afterPath="$PROJECT_DIR$/../appium.example/src/test/java/framework/nativetests/MobileNativeDemoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/src/test/resources/android-hybrid-mobile-tests.xml" afterPath="$PROJECT_DIR$/../appium.example/src/test/resources/android-hybrid-mobile-tests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/src/test/resources/android-native-mobile-tests.xml" afterPath="$PROJECT_DIR$/../appium.example/src/test/resources/android-native-mobile-tests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/classes/properties.xml" afterPath="$PROJECT_DIR$/../appium.example/target/classes/properties.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/../appium.example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../appium.example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/../appium.example/target/surefire-reports/TEST-TestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/../appium.example/target/surefire-reports/TestSuite.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/../appium.example/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/../appium.example/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/../appium.example/target/surefire-reports/old/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/../appium.example/target/surefire-reports/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/../appium.example/target/surefire-reports/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/test-classes/android-hybrid-mobile-tests.xml" afterPath="$PROJECT_DIR$/../appium.example/target/test-classes/android-hybrid-mobile-tests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../appium.example/target/test-classes/android-native-mobile-tests.xml" afterPath="$PROJECT_DIR$/../appium.example/target/test-classes/android-native-mobile-tests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline reanimated/.idea/misc.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline reanimated/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline reanimated/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline reanimated/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test browsersack/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/.idea/misc.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/pom.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/src/main/java/pageObject/pages/enterapplication/mmjdoctoronline/HomePage.java" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/src/main/java/pageObject/pages/enterapplication/mmjdoctoronline/HomePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/src/main/java/pageObject/utility/CsvDataProvider.java" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/src/main/java/pageObject/utility/CsvDataProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/src/test/java/pageobject/apitest/PartnerCreatingTestSuit.java" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/src/test/java/pageobject/apitest/PartnerCreatingTestSuit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/src/test/java/pageobject/oredersonmmjtest/OrederMakingTestSuit.java" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/src/test/java/pageobject/oredersonmmjtest/OrederMakingTestSuit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/src/test/java/pageobject/testcase/TestBase.java" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/src/test/java/pageobject/testcase/TestBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/src/test/java/resources/page-object-test.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/src/test/java/resources/page-object-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/log/App.log" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/log/App.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/testGoogle.iml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_new_logger_test/testGoogle.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_with_tastrik_logger/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_with_tastrik_logger/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../com.mmjdoctoronline_without_logger/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../com.mmjdoctoronline_without_logger/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson_java5_3(xml)/.classpath" afterPath="$PROJECT_DIR$/../lesson_java5_3(xml)/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson_java5_3(xml)/.project" afterPath="$PROJECT_DIR$/../lesson_java5_3(xml)/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson_java5_3(xml)/bin/employee.xml" afterPath="$PROJECT_DIR$/../lesson_java5_3(xml)/bin/employee.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson_java5_4(json)/src/jsonobject/JsonObjectParser.java" afterPath="$PROJECT_DIR$/../lesson_java5_4(json)/src/jsonobject/JsonObjectParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../malinatorTestProject_Gorodenchuk/target/classes/META-INF/maven/email/testGoogle/pom.properties" afterPath="$PROJECT_DIR$/../malinatorTestProject_Gorodenchuk/target/classes/META-INF/maven/email/testGoogle/pom.properties" />
+    </list>
     <ignored path="emailStage.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,8 +662,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/emailStage$GeolocationForNotLoginUserTestSuit_checkIfAtMenuPageDisplaysUserLocationThatHeSatManualyAtMessage5Page.coverage" NAME="GeolocationForNotLoginUserTestSuit.checkIfAtMenuPageDisplaysUserLocationThatHeSatManualyAtMessage5Page Coverage Results" MODIFIED="1501080559395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>pageobject.desktoptest.*</FILTER>
+    <SUITE FILE_PATH="coverage/emailStage$WelcomeToMmjTrain.coverage" NAME="WelcomeToMmjTrain Coverage Results" MODIFIED="1506947820220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pageObject.utility.emailTest.letters.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/emailStage$resources_chrome_lin.coverage" NAME="resources.chrome-lin Coverage Results" MODIFIED="1479220017278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>resources.chrome-lin.*</FILTER>
@@ -22,77 +671,34 @@
     <SUITE FILE_PATH="coverage/emailStage$MakingOrderTestSuit_checkThatLogginedUserCanAddToCart18OzOfFlowerItemSativaStrainFromPortionProductItemAndPriceWillBeDisplayedOnCartButton.coverage" NAME="MakingOrderTestSuit.checkThatLogginedUserCanAddToCart18OzOfFlowerItemSativaStrainFromPortionProductItemAndPriceWillBeDisplayedOnCartButton Coverage Results" MODIFIED="1504002735368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>pageobject.desktoptest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/emailStage$WelcomeToMmjTrain.coverage" NAME="WelcomeToMmjTrain Coverage Results" MODIFIED="1506947820220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>pageObject.utility.emailTest.letters.*</FILTER>
+    <SUITE FILE_PATH="coverage/emailStage$GeolocationForNotLoginUserTestSuit_checkIfAtMenuPageDisplaysUserLocationThatHeSatManualyAtMessage5Page.coverage" NAME="GeolocationForNotLoginUserTestSuit.checkIfAtMenuPageDisplaysUserLocationThatHeSatManualyAtMessage5Page Coverage Results" MODIFIED="1501080559395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pageobject.desktoptest.*</FILTER>
     </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="emailStage" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SignInPopUp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pop_ups/SignInPopUp.java">
+      <file leaf-file-name="EventHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/EventHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pages/MenuPage.java">
+      <file leaf-file-name="Page.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pages/Page.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pages/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebDriverFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/webDriver/WebDriverFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="26" column="56" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-object-test.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/resources/page-object-test.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignUpPopUp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pop_ups/SignUpPopUp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -238,34 +844,32 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/Program Files/apache-maven-3.5.0" />
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.3.9-bin" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mmjdoctoronline-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mmjdoctoronline-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="mmjdoctoronline-core" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
     </treeState>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -285,141 +889,206 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
-              <item name="mmjtraine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
-              <item name="mmjtraine" type="462c0819:PsiDirectoryNode" />
-              <item name="businessobject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
-              <item name="mmjtraine" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
-              <item name="mmjtraine" type="462c0819:PsiDirectoryNode" />
-              <item name="pop_ups" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
-              <item name="webDriver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emailStage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patternsdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emailStage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emailStage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emailStage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strategytest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emailStage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facadetest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emailStage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buildertest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emailStage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emailStage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emailStage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -468,7 +1137,87 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.DemoTestSuit">
-    <configuration name="DemoTestSuit" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pageObject.utility.emails.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="pageObject.utility.emails.TestClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testGoogle" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FetchingEmailHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pageObject.utility.emails.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="pageObject.utility.emails.FetchingEmailHelper" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testGoogle" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pageObject.utility.emails.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="pageObject.utility.emails.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testGoogle" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pageObject.mmjtraine.businessobject.useresfacade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="pageObject.mmjtraine.businessobject.useresfacade.UserHelper" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testGoogle" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DemoTestSuit" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="pageobject.facadetest.*" />
@@ -499,163 +1248,14 @@
       <envs />
       <properties />
       <listeners />
-    </configuration>
-    <configuration name="FetchingEmailHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pageObject.utility.emails.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="pageObject.utility.emails.FetchingEmailHelper" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="testGoogle" />
-      <envs />
-    </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pageObject.utility.emails.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="pageObject.utility.emails.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="testGoogle" />
-      <envs />
-    </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pageObject.utility.emails.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="pageObject.utility.emails.TestClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="testGoogle" />
-      <envs />
-    </configuration>
-    <configuration name="UserHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pageObject.mmjtraine.businessobject.useresfacade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="pageObject.mmjtraine.businessobject.useresfacade.UserHelper" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="testGoogle" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
+      <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -712,6 +1312,29 @@
       </Profilers>
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
@@ -745,6 +1368,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -813,6 +1457,42 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <list size="5">
@@ -899,21 +1579,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4935275" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.53198296" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15245202" sideWeight="0.47082496" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15204236" sideWeight="0.47082496" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.49676377" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42608696" sideWeight="0.46801707" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.48786408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15031983" sideWeight="0.49223948" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25869894" sideWeight="0.49223948" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.4935275" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.49367088" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -921,16 +1605,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28744328" sideWeight="0.5077605" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53152174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15991472" sideWeight="0.52917504" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.4935275" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -993,7 +1674,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/FetchingEmailHelper.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/TestClass.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/YourMmjTrainOrderHasNowBeenShipped.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/ThankYouForPlacingYourOrderWithMmjTrain.java" />
@@ -1003,14 +1683,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/MmmjTrainPasswordReset.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/YourOrderHasBeenCanceled.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/FetchingEmailHelper.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="1957" column="18" lean-forward="false" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/IFetchingEmail.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/FetchingEmail.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/emails/letters/WelcomeToMmjTrain.java" />
@@ -1106,14 +1779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/EventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1122,7 +1787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,7 +1801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-386">
           <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,7 +1808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,33 +1815,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pop_ups/ResetYourPasswordPopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="46" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pop_ups/SignUpPopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pop_ups/ResetYourPasswordPopUp.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pop_ups/SignInPopUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
+        <state relative-caret-position="170">
           <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,17 +1830,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
+        <state relative-caret-position="578">
           <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1205,7 +1844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="26" column="56" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,6 +1851,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pop_ups/SignUpPopUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/utility/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/mmjtraine/pages/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1274,6 +1934,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
