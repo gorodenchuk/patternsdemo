@@ -17,14 +17,13 @@ public class DemoTestSuit extends TestBase {
 
     @Test(enabled = true)
     // TS 2.1
-    public void checkRedirectionToMenuPageAfterAddingLocationManually() throws Exception {
+    public void checkRedirectionToMenuPageAfterAddingLocationManuallyTEST() throws Exception {
 
         MenuPage menuPage = homePage.giveGeolocation(new ManualLocation(webDriver,"San Francisco"));
         menuPage.IsLoaded();
         PortionProductItem portionProductItem = new PortionProductItem.
                 PortionProductItemBuilder("flowers", "Girl Scout Cookies", "hybrid").
-                setEnabledPortion_1_8("1/8 oz").
-                setEnabledPortion_1_6("1/6 oz").
+                setEnabledPortion("1/2 oz").
                 build();
         menuPage.selectPortionProductItem(portionProductItem).addToCartPortionProductItem(portionProductItem);
 

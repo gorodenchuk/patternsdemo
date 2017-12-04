@@ -6,12 +6,12 @@
     </listeners>
     <test name="ChromeTesting">
         <parameter name="config" value="single.conf.json"/>
-        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserName" value="firefox"/>
 
         <classes>
-            <class name="pageobject.buildertest.DemoTestSuit"/>
+            <!--<class name="pageobject.buildertest.DemoTestSuit"/>-->
             <class name="pageobject.strategytest.DemoTestSuit"/>
-            <class name="pageobject.facadetest.DemoTestSuit"/>
+            <!--<class name="pageobject.facadetest.DemoTestSuit"/>-->
         </classes>
     </test>
 </suite>

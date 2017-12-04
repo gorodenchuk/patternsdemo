@@ -15,6 +15,8 @@ public class PortionProductItem {
     private  String portion_1_4;
     private  String portion_1_2;
     private  String portion_1;
+    private  String portion;
+
 
     public String getProductType() {
         return productType;
@@ -44,6 +46,11 @@ public class PortionProductItem {
         return portion_1;
     }
 
+    public String getPortion() {
+        return portion;
+    }
+
+
 
     private PortionProductItem(PortionProductItemBuilder builder) {
         this.productType=builder.productType;
@@ -54,6 +61,7 @@ public class PortionProductItem {
         this.portion_1_4=builder.portion_1_4;
         this.portion_1_2=builder.portion_1_2;
         this.portion_1=builder.portion_1;
+        this.portion=builder.portion;
     }
 
     //Builder Class
@@ -70,8 +78,7 @@ public class PortionProductItem {
         private String portion_1_4;
         private String portion_1_2;
         private String portion_1;
-        HashMap<String, String> portionMap = new HashMap<>();
-
+        private String portion;
 
         public PortionProductItemBuilder(String productType, String name, String straine){
             this.productType=productType;
@@ -101,6 +108,11 @@ public class PortionProductItem {
 
         public PortionProductItemBuilder setEnabledPortion_1(String portion) {
             this.portion_1 = portion;
+            return this;
+        }
+
+        public PortionProductItemBuilder setEnabledPortion(String portion) {
+            this.portion= portion;
             return this;
         }
 

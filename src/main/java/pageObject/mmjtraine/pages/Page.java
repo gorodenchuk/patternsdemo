@@ -16,13 +16,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 /*
  * Abstract class representation of a Page in the UI with additional features. Page object pattern
  */
-public abstract class Page {
+public abstract class Page <T extends Page>{
 
 //    final static public String WEB_URL = "http://localhost/";
     final static public String WEB_URL = "https://devtests.mmjtrain.com/";
     protected WebDriver webDriver;
     private static final Logger LOG = LogManager.getLogger(Page.class);
-
+    public static Class<?> currentClass;
 	/*
 	 * Constructor injecting the WebDriver interface
 	 *
@@ -31,6 +31,7 @@ public abstract class Page {
 
     public Page(WebDriver webDriver) {
         this.webDriver = webDriver;
+        currentClass  = getClass();
     }
 
     public WebDriver getWebDriver() {
