@@ -12,9 +12,6 @@ import pageObject.mmjtraine.pages.Page;
 
 public class ManualLocation extends Page implements GeolocationStrategy {
 
-    @FindBy(how = How.XPATH, using = "//input[@id='address-geo']")
-    private WebElement addressField;
-
     private String location;
     private static final Logger LOG = LogManager.getLogger(HomePage.class);
 

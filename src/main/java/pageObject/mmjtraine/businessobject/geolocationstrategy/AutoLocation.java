@@ -9,9 +9,6 @@ import pageObject.mmjtraine.pages.Page;
 
 public class AutoLocation extends Page implements GeolocationStrategy {
 
-    @FindBy(how = How.XPATH, using = "//button[@class='btn-main btn-geo']")
-    private WebElement geolocationButton;
-
     public AutoLocation(WebDriver webDriver) {
         super(webDriver);
     }

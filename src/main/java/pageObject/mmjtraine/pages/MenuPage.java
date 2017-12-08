@@ -14,10 +14,10 @@ import ru.yandex.qatools.allure.annotations.Step;
 public class MenuPage extends Page {
 
     @FindBy(how = How.XPATH, using = "//div[@class='btn-main btn-border user-location']/span[contains(text(),'Your Location')]")
-    private WebElement yourLocationButton;
+    public WebElement yourLocationButton;
 
     @FindBy(how = How.XPATH, using = "//button[@class='btn-main btn-standard btn-cart cart-full nav-link']")
-    private static WebElement orangeCartButton;
+    public static WebElement orangeCartButton;
 
     private static final Logger LOG = LogManager.getLogger(MenuPage.class);
 

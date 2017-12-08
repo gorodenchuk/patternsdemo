@@ -2,6 +2,7 @@ package pageObject.utility;
 
 import org.openqa.selenium.WebDriver;
 import pageObject.mmjtraine.pages.HomePage;
+import pageObject.mmjtraine.pages.Page;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -11,8 +12,9 @@ import java.util.LinkedList;
 public class TestClass {
 
     WebDriver webDriver;
+    String test = "asdasdas";
 
-    public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException, NoSuchMethodException {
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException, NoSuchMethodException, IllegalAccessException {
         TestClass testClass = new TestClass();
 
         testClass.getObject();
@@ -22,6 +24,7 @@ public class TestClass {
         testClass.exploringOfClassFields();
         testClass.nameField();
         testClass.exploringConstructors();
+        testClass.getFieldValue();
     }
 
     PropertyLoader propertyLoader = new PropertyLoader();
@@ -32,6 +35,23 @@ public class TestClass {
         Field nameField = c.getField("WEB_URL");
         System.out.print("\n");
         System.out.println("Имя: " + nameField);
+    }
+
+    private void getFieldValue() throws NoSuchFieldException, IllegalAccessException, ClassNotFoundException {
+
+        Class c = Class.forName("TestClass");
+        Class cz = this.getClass();
+
+        Field fieldName = cz.getDeclaredField("test");
+//        Class aClass = myClassLoader.loadClass(c);
+
+
+        Object fieldValue = fieldName.get(cz);
+
+
+
+        System.out.print("\n");
+        System.out.println("Значения: " + fieldValue);
     }
 
     private void exploringConstructors() throws NoSuchMethodException {

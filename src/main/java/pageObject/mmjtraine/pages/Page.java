@@ -16,7 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 /*
  * Abstract class representation of a Page in the UI with additional features. Page object pattern
  */
-public abstract class Page <T extends Page>{
+public class Page <T extends Page>{
 
 //    final static public String WEB_URL = "http://localhost/";
     final static public String WEB_URL = "https://devtests.mmjtrain.com/";

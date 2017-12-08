@@ -69,13 +69,15 @@ public class EventHandler implements WebDriverEventListener {
     @Override
     public void beforeFindBy(By by, WebElement element, WebDriver driver) {
         LOG.debug("Element should be found by" + by);
-        System.out.println("From Listener: " + Page.currentClass);
-
-        try {
-            EventHandler.getConstantName(by, Page.currentClass);
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        }
+//        System.out.println("From Listener: " + Page.currentClass);
+//
+//        try {
+//            EventHandler.getConstantName(by, Page.currentClass);
+//        } catch (IllegalAccessException e) {
+//            e.printStackTrace();
+//        } catch (ClassNotFoundException e) {
+//            e.printStackTrace();
+//        }
 
 
     }
@@ -101,11 +103,6 @@ public class EventHandler implements WebDriverEventListener {
 
     @Override
     public void afterChangeValueOf(WebElement element, WebDriver driver) {
-//        TestStepReporter.report(
-//                "Change was performed on element with locator:",
-//                getElementDescriptorXPATH(driver, element)
-//                        + "; Element html tag: "
-//                        + getElementDescriptorName(driver, element));
     }
 
     @Override
@@ -123,54 +120,26 @@ public class EventHandler implements WebDriverEventListener {
 //        TestStepReporter.reportln("WebDriver Exception throwed:", throwable.getMessage());
     }
 
-    /**
-     * Gets the element descriptor xpath.
-     * <p>
-     * //     * @param driver the driver
-     *
-     * @return the element descriptor xpath
-     */
-//    public String getElementDescriptorXPATH(WebDriver driver, WebElement element) {
-//        return (String) ((JavascriptExecutor) driver)
-//                .executeScript(
-//                        "gPt=function(c){if(c.id!=='')"
-//                                + "{return'id(\"'+c.id+'\")'}"
-//                                + "if(c===document.body){return c.tagName}"
-//                                + "var a=0;var e=c.parentNode.childNodes;"
-//                                + "for(var b=0;b<e.length;b++){"
-//                                + "var d=e[b];if(d===c){"
-//                                + "return gPt(c.parentNode)+'/'+c.tagName+"
-//                                + "'['+(a+1)+']'}if(d.nodeType===1&&d.tagName===c.tagName)"
-//                                + "{a++}}};return gPt(arguments[0]).toLowerCase();",
-//                        element);
-//    }
-    public static void getConstantName(By by, Class<?> currentClass) throws IllegalAccessException {
-        for (Field field : currentClass.getDeclaredFields()) {
-//            if (field.getType().getSimpleName().equals("WebElement")) {
-//                WebElement val = (WebElement) field.get(currentClass);
-////
+    public static void getConstantName(By by, Class<?> currentClass) throws IllegalAccessException, ClassNotFoundException {
+        for (Field fieldName : currentClass.getDeclaredFields()) {
+            Class<?> c = Class.forName(currentClass.toString());
+//            if (fieldName.getType().getSimpleName().equals("WebElement")) {
+                Object fieldValue = fieldName.get(c);
+                System.out.println("+++++++++++++++++++++++++++++++++++" + fieldValue);
+
 //                if (val == by){
 //                    System.out.println("NAME OF WEBELEMENT: " + field.getName());
 //                }
 //            }
-//            System.out.println("Field name: " + field);
-//            System.out.println("Field getTypeName: " + field.getType().getTypeName());
-//            System.out.println("Field getSimpleName: " + field.getType().getSimpleName());
-            System.out.println("Field getSimpleName: " + field.get(currentClass));
 
-//            System.out.println("Field getName: " + field.getName());
+
+            System.out.println("Field name: " + fieldName);
+            System.out.println("Field getTypeName: " + fieldName.getType().getTypeName());
+            System.out.println("Field getSimpleName: " + fieldName.getType().getSimpleName());
+            System.out.println("Field getSimpleName: " + fieldName.get(currentClass));
+
+            System.out.println("Field getName: " + fieldName.getName());
 
         }
     }
 }
-    /**
-     * Gets the element descriptor name.
-     *
-     * @param driver the driver
-     * @param element the element
-     * @return the element descriptor name and element text
-     */
-//    public String getElementDescriptorName(WebDriver driver, WebElement element) {
-//        return element.getTagName() + "<p>" + element.getText();
-//    }
-//}

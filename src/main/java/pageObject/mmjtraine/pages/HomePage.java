@@ -15,16 +15,21 @@ import ru.yandex.qatools.allure.annotations.Step;
 public class HomePage extends Page {
 
 	@FindBy(how = How.XPATH, using = "//button[@class='btn-main btn-geo']")
-	private WebElement GeolocationButton;
+	public WebElement GeolocationButton;
+
+	public WebElement getAddressField() {
+		return addressField;
+	}
 
 	@FindBy(how = How.XPATH, using = "//input[@class='standard-input search-input address-geo']")
-	private WebElement addressField;
+	public WebElement addressField;
 
 	@FindBy(how = How.XPATH, using = "//button[@class='btn-main btn-border btn-signin']")
-	private WebElement signInButton;
+	public WebElement signInButton;
 
 	private static final Logger LOG = LogManager.getLogger(HomePage.class);
 
+	public String test = "test field";
 
 	public HomePage(WebDriver webDriver) {
 		super(webDriver);
