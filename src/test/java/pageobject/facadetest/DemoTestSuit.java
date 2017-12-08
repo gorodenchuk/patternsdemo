@@ -18,7 +18,7 @@ public class DemoTestSuit extends TestBase {
     private static final Logger LOG = LogManager.getLogger(DemoTestSuit.class);
    UserHelper userHelper = new UserHelper();
 
-    @Test(enabled = true)
+    @Test(enabled = false)
     // TS 3.1
     public void checkLogInAdminUser() throws Exception {
         SignInPopUp signInPopUp = homePage.clickOnSignInButton();
@@ -26,7 +26,7 @@ public class DemoTestSuit extends TestBase {
         Assert.assertTrue(webDriver.findElement(By.xpath("//form[@id='signinform']/p[.='Unknown user.']")).isDisplayed(), "User with INVALID data was able to log in");
     }
 
-    @Test(enabled = true)
+    @Test(enabled = false)
     // TS 3.1
     public void checkLogInManagerUser() throws Exception {
         SignInPopUp signInPopUp = homePage.clickOnSignInButton();
