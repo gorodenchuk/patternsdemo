@@ -2,6 +2,7 @@ package pageObject.webDriver;
 
 
 import org.json.JSONObject;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -57,10 +58,12 @@ public class WebDriverFactory {
 
 			} else if (FIREFOX.equals(browser)) {
 
+				setFirefoxDriver();
+
 				ProfilesIni profile = new ProfilesIni();
 				FirefoxProfile myprofile = profile.getProfile("MMJTrainQA");
 
-				webDriver = new FirefoxDriver(myprofile);
+				webDriver = new FirefoxDriver();
 
 			} else if (INTERNETEXPLORER.equals(browser)) {
 
@@ -127,6 +130,20 @@ public class WebDriverFactory {
 
 		System.setProperty("webdriver.chrome.driver",
 				chromeBinaryPath.toString());
+	}
+
+	public static void setFirefoxDriver() throws Exception {
+		String osName = System.getProperty("os.name").toLowerCase();
+		StringBuffer geckoBinaryPath = new StringBuffer(
+				"src/main/java/resources/");
+
+		if (osName.startsWith("win")) {
+			geckoBinaryPath.append("geckodriver.exe");
+		} else
+			throw new Exception("Your OS is invalid for webdriver tests");
+
+		System.setProperty("webdriver.gecko.driver",
+				geckoBinaryPath.toString());
 	}
 
 	public static void setIeDriver() throws Exception {

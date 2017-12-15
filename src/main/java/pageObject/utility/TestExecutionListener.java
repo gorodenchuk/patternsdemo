@@ -1,6 +1,5 @@
 package pageObject.utility;//package pageObject.utility;
-//
-import com.gargoylesoftware.htmlunit.javascript.configuration.WebBrowser;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.output.ByteArrayOutputStream;
 import org.apache.logging.log4j.LogManager;

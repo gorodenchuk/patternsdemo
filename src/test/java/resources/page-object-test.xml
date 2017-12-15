@@ -1,17 +1,17 @@
-<!--<?xml version="1.0" encoding="UTF-8"?>-->
-<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
-<!--<suite name="MMJTest" verbose="5" parallel="tests" thread-count="3">-->
-    <!--<listeners>-->
-        <!--<listener class-name="pageObject.utility.TestExecutionListener"/>-->
-    <!--</listeners>-->
-    <!--<test name="ChromeTesting">-->
-        <!--<parameter name="config" value="single.conf.json"/>-->
-        <!--<parameter name="browserName" value="chrome"/>-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MMJTest" verbose="5" parallel="tests" thread-count="3">
+    <listeners>
+        <listener class-name="pageObject.utility.TestExecutionListener"/>
+    </listeners>
+    <test name="ChromeTesting">
+        <parameter name="config" value="single.conf.json"/>
+        <parameter name="browserName" value="chrome"/>
 
-        <!--<classes>-->
-            <!--&lt;!&ndash;<class name="pageobject.buildertest.DemoTestSuit"/>&ndash;&gt;-->
-            <!--&lt;!&ndash;<class name="pageobject.strategytest.DemoTestSuit"/>&ndash;&gt;-->
-            <!--<class name="pageobject.facadetest.DemoTestSuit"/>-->
-        <!--</classes>-->
-    <!--</test>-->
-<!--</suite>-->
+        <classes>
+            <!--<class name="pageobject.buildertest.DemoTestSuit"/>-->
+            <!--<class name="pageobject.strategytest.DemoTestSuit"/>-->
+            <class name="pageobject.facadetest.DemoTestSuit"/>
+        </classes>
+    </test>
+</suite>

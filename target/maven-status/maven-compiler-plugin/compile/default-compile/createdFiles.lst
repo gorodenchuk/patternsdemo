@@ -16,7 +16,6 @@ pageObject\mmjtraine\businessobject\productitembuilder\PortionProductItem$1.clas
 pageObject\utility\TestExecutionListener.class
 pageObject\utility\events\TestStepReporter.class
 pageObject\mmjtraine\pop_ups\SignUpPopUp.class
-pageObject\utility\events\newwvent\MyInvocationHandler.class
 pageObject\mmjtraine\businessobject\geolocationstrategy\AutoLocation.class
 pageObject\utility\events\TestExecutionListener.class
 pageObject\mmjtraine\businessobject\productitembuilder\PortionProductItem$PortionProductItemBuilder.class

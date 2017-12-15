@@ -1,4 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.202 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 3.36 s <<< FAILURE! - in TestSuite
+setup(pageobject.facadetest.DemoTestSuit)  Time elapsed: 2.92 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to find a matching set of capabilities
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'EPUALVIW0912', ip: '10.25.14.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4bd56f - <no info>
+   1:           0x4bdcc9 - <no info>
+   2:           0x43ed54 - <no info>
+   3:           0x44888f - <no info>
+   4:           0x4207bc - <no info>
+   5:           0x405e47 - <no info>
+   6:           0x6db3d9 - <no info>
+   7:           0x417847 - <no info>
+   8:           0x6d56d3 - <no info>
+   9:     0x7ff810282774 - BaseThreadInitThunk
+

@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MMJTest]" parallel="tests">
-  <parameter name="browserName" value="chrome"/>
+  <parameter name="browserName" value="firefox"/>
   <parameter name="config" value="single.conf.json"/>
   <listeners>
     <listener class-name="pageObject.utility.TestExecutionListener"/>
   </listeners>
   <test name="ChromeTesting">
-    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserName" value="firefox"/>
     <parameter name="config" value="single.conf.json"/>
     <classes>
-      <class name="pageobject.buildertest.DemoTestSuit"/>
-      <class name="pageobject.strategytest.DemoTestSuit"/>
       <class name="pageobject.facadetest.DemoTestSuit"/>
     </classes>
   </test> <!-- ChromeTesting -->
+  <test name="ChromeTesting(failed)" parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="config" value="single.conf.json"/>
+    <classes>
+      <class name="pageobject.facadetest.DemoTestSuit">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="checkLogInShipperUser"/>
+        </methods>
+      </class> <!-- pageobject.facadetest.DemoTestSuit -->
+    </classes>
+  </test> <!-- ChromeTesting(failed) -->
 </suite> <!-- Failed suite [MMJTest] -->

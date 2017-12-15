@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="24.202" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.36" tests="2" errors="0" skipped="1" failures="1">
   <properties>
     <property name="idea.version" value="2017.2.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,4 +61,39 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+  <testcase name="setup" classname="pageobject.facadetest.DemoTestSuit" time="2.92">
+    <failure message="Unable to find a matching set of capabilities&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;EPUALVIW0912&apos;, ip: &apos;10.25.14.48&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: stack backtrace:&#10;   0:           0x4bd56f - &lt;no info&gt;&#10;   1:           0x4bdcc9 - &lt;no info&gt;&#10;   2:           0x43ed54 - &lt;no info&gt;&#10;   3:           0x44888f - &lt;no info&gt;&#10;   4:           0x4207bc - &lt;no info&gt;&#10;   5:           0x405e47 - &lt;no info&gt;&#10;   6:           0x6db3d9 - &lt;no info&gt;&#10;   7:           0x417847 - &lt;no info&gt;&#10;   8:           0x6d56d3 - &lt;no info&gt;&#10;   9:     0x7ff810282774 - BaseThreadInitThunk" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Unable to find a matching set of capabilities
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'EPUALVIW0912', ip: '10.25.14.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4bd56f - <no info>
+   1:           0x4bdcc9 - <no info>
+   2:           0x43ed54 - <no info>
+   3:           0x44888f - <no info>
+   4:           0x4207bc - <no info>
+   5:           0x405e47 - <no info>
+   6:           0x6db3d9 - <no info>
+   7:           0x417847 - <no info>
+   8:           0x6d56d3 - <no info>
+   9:     0x7ff810282774 - BaseThreadInitThunk
+]]></failure>
+    <system-out><![CDATA[...
+... TestNG 6.9.10 by C?dric Beust (cedric@beust.com)
+...
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+1513335935632	geckodriver	INFO	Listening on 127.0.0.1:7436
+]]></system-err>
+  </testcase>
+  <testcase name="checkLogInShipperUser" classname="pageobject.facadetest.DemoTestSuit" time="0">
+    <skipped/>
+    <system-out><![CDATA[<p><b>Test Status after execution: </b>&nbspSkipped<p>
+]]></system-out>
+  </testcase>
 </testsuite>
